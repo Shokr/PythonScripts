@@ -12,15 +12,15 @@ Each day i create a directory with the today's date and put my code in, and twee
 
 |Num.| Date                     | Title                                                           | Tags                         |
 |----|:------------------------ |:--------------------------------------------------------------- | ----------------------------:|
-|0001|01-2019| [Simple Blockchain Data Structure](./SimpleBlockchainDataStructure)  |`Blockchain` `notebook`|
-|0002|01-2019| [Image-Metadata-Viewer](https://git.io/fhEHX)  |`ImageMetadata` `Script`|
-|0003|01-2019| [Control windows programs with your voice](https://git.io/fhEHy)  |`JARVIS` `Script`|
-|0004|01-2019| [Convert Json To Xml](./JsonToXml)  |`dicttoxml` `py2`|
-|0005|02-2019| [Socket Programming](./SocketProgramming)  |`Socket` |
-|0006|02-2019| [Asymmetric Encryption - RSA](./AsymmetricEncryption)  |`RSA` `py2`|
-|0007|02-2019| [Symmetric Encryption - DES](./SymmetricEncryption)  |`pyDes` `py2`|
-|0008|02-2019| [Python Progress Bar](./PythonProgressBar)  |`Terminal` `py3`|
-|0009|02-2019| [Get Current Dir Info](./Get_dir_info)  |`OS` |
+|0001|01-2019| [Simple Blockchain Data Structure](https://git.io/fjH8L)  |`Blockchain` `notebook`|
+|0002|01-2019| [Image-Metadata-Viewer](https://git.io/fjH8q)  |`ImageMetadata` `Script`|
+|0003|01-2019| [Control windows programs with your voice](https://git.io/fjH8m)  |`JARVIS` `Script`|
+|0004|01-2019| [Convert Json To Xml](https://git.io/fjH8Y)  |`dicttoxml` `py2`|
+|0005|02-2019| [Socket Programming](https://git.io/fjH8O)  |`Socket` |
+|0006|02-2019| [Asymmetric Encryption - RSA](https://git.io/fjH83)  |`RSA` `py2`|
+|0007|02-2019| [Symmetric Encryption - DES](https://git.io/fjH8n)  |`pyDes` `py2`|
+|0008|02-2019| [Python Progress Bar](https://git.io/fjH8c)  |`Terminal` `py3`|
+|0009|02-2019| [Get Current Dir Info](https://git.io/fjH8C)  |`OS` |
 
 ## run script
 ```sh
