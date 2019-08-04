@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+# Python_Playbook
+> My Python_Playbook is collection of tiny programs that each demonstrate a particular concept in Python.
 
-You can use the [editor on GitHub](https://github.com/Shokr/Python_Playbook/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+Usually, I create a new script everyday, scripts for dealing with everything in python.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Hope my scripts gets you inspired at your work, or even makes you jealous and port them, enhance them, or even create your own ideas,
 
-### Markdown
+Each day i create a directory with the today's date and put my code in, and tweet script on  [@MuhammedShokr](https://twitter.com/MuhammedShokr) 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Table Of Content
 
-# Header 1
-## Header 2
-### Header 3
+|Num.| Date                     | Title                                                           | Tags                         |
+|----|:------------------------ |:--------------------------------------------------------------- | ----------------------------:|
+|0001|01-2019| [Simple Blockchain Data Structure](./SimpleBlockchainDataStructure)  |`Blockchain` `notebook`|
+|0002|01-2019| [Image-Metadata-Viewer](https://git.io/fhEHX)  |`ImageMetadata` `Script`|
+|0003|01-2019| [Control windows programs with your voice](https://git.io/fhEHy)  |`JARVIS` `Script`|
+|0004|01-2019| [Convert Json To Xml](./JsonToXml)  |`dicttoxml` `py2`|
+|0005|02-2019| [Socket Programming](./SocketProgramming)  |`Socket` |
+|0006|02-2019| [Asymmetric Encryption - RSA](./AsymmetricEncryption)  |`RSA` `py2`|
+|0007|02-2019| [Symmetric Encryption - DES](./SymmetricEncryption)  |`pyDes` `py2`|
+|0008|02-2019| [Python Progress Bar](./PythonProgressBar)  |`Terminal` `py3`|
+|0009|02-2019| [Get Current Dir Info](./Get_dir_info)  |`OS` |
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## run script
+```sh
+python Script.py
+```
+#### run notebook
+```sh
+jupyter notebook xxxxxxx.ipynb
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Shokr/Python_Playbook/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Contributing
+> feel free to fork this repository and enhance whatever script you want,
+just show the world how you code, think and do magic with your keyboard.
 
-### Support or Contact
+1. Fork it 
+2. Create your feature branch (`git checkout -b feature/xxxxx`)
+3. Commit your changes (`git commit -am 'Add some xxxxx'`)
+4. Push to the branch (`git push origin feature/xxxxx`)
+5. Create a new Pull Request
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+## Credits
+Muhammed Shokr – [@MuhammedShokr](https://twitter.com/MuhammedShokr) –  mohammedshokr2014@gmail.com
+
+## License
+This project is released under MIT license, you are free to use it for personal and commercial projects.
