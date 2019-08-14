@@ -12,17 +12,17 @@ Each day i create a directory with the today's date and put my code in, and twee
 
 |Num.| Date                     | Title                                                           | Tags                         |
 |----|:------------------------ |:--------------------------------------------------------------- | ----------------------------:|
-|0001|01-2019| [Simple Blockchain Data Structure](https://git.io/fjH8L)  |`Blockchain` `notebook`|
-|0002|01-2019| [Image-Metadata-Viewer](https://git.io/fjH8q)  |`ImageMetadata` `Script`|
-|0003|01-2019| [Control windows programs with your voice](https://git.io/fjH8m)  |`JARVIS` `Script`|
-|0004|01-2019| [Convert Json To Xml](https://git.io/fjH8Y)  |`dicttoxml` `py2`|
-|0005|02-2019| [Socket Programming](https://git.io/fjH8O)  |`Socket` |
-|0006|02-2019| [Asymmetric Encryption - RSA](https://git.io/fjH83)  |`RSA` `py2`|
-|0007|02-2019| [Symmetric Encryption - DES](https://git.io/fjH8n)  |`pyDes` `py2`|
-|0008|02-2019| [Python Progress Bar](https://git.io/fjH8c)  |`Terminal` `py3`|
-|0009|02-2019| [Get Current Dir Info](https://git.io/fjH8C)  |`OS` |
-|0010|07-2019| [Factory Pattern](https://git.io/fj5xE)  |`Creational_Pattern` |
-|0011|08-2019| [Cities Scraper](https://git.io/fj5xe)  |`Scraper` |
+|0001|1-01-2019| [Simple Blockchain Data Structure](https://git.io/fjH8L)  |`Blockchain` `notebook`|
+|0002|2-01-2019| [Image-Metadata-Viewer](https://git.io/fjH8q)  |`ImageMetadata` `Script`|
+|0003|3-01-2019| [Control windows programs with your voice](https://git.io/fjH8m)  |`JARVIS` `Script`|
+|0004|4-01-2019| [Convert Json To Xml](https://git.io/fjH8Y)  |`dicttoxml` `py2`|
+|0005|5-02-2019| [Socket Programming](https://git.io/fjH8O)  |`Socket` |
+|0006|6-02-2019| [Asymmetric Encryption - RSA](https://git.io/fjH83)  |`RSA` `py2`|
+|0007|7-02-2019| [Symmetric Encryption - DES](https://git.io/fjH8n)  |`pyDes` `py2`|
+|0008|8-02-2019| [Python Progress Bar](https://git.io/fjH8c)  |`Terminal` `py3`|
+|0009|9-03-2019| [Get Current Dir Info](https://git.io/fjH8C)  |`OS` |
+|0010|30-07-2019| [Factory Pattern](https://git.io/fj5xE)  |`Creational_Pattern` |
+|0011|14-08-2019| [Cities Scraper](https://git.io/fj5xe)  |`Scraper` |
 
 ## run script
 ```sh
