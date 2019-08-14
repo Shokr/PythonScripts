@@ -22,6 +22,7 @@ Each day i create a directory with the today's date and put my code in, and twee
 |0008|02-2019| [Python Progress Bar](https://git.io/fjH8c)  |`Terminal` `py3`|
 |0009|02-2019| [Get Current Dir Info](https://git.io/fjH8C)  |`OS` |
 
+
 ## run script
 ```sh
 python Script.py
@@ -49,3 +50,4 @@ Muhammed Shokr – [@MuhammedShokr](https://twitter.com/MuhammedShokr) –  moha
 
 ## License
 This project is released under MIT license, you are free to use it for personal and commercial projects.
+
