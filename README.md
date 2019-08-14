@@ -21,7 +21,8 @@ Each day i create a directory with the today's date and put my code in, and twee
 |0007|02-2019| [Symmetric Encryption - DES](https://git.io/fjH8n)  |`pyDes` `py2`|
 |0008|02-2019| [Python Progress Bar](https://git.io/fjH8c)  |`Terminal` `py3`|
 |0009|02-2019| [Get Current Dir Info](https://git.io/fjH8C)  |`OS` |
-|0010|08-2019| [Cities Scraper](https://git.io/fj5xe)  |`Scraper` |
+|0010|07-2019| [Factory Pattern](https://git.io/fj5xE)  |`Creational_Pattern` |
+|0011|08-2019| [Cities Scraper](https://git.io/fj5xe)  |`Scraper` |
 
 ## run script
 ```sh
