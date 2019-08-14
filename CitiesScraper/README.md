@@ -1,6 +1,6 @@
 # Cities Scraper.
 
-### Cities Scraper is a script that get cities.csv file which contains table of country cities information.
+> Cities Scraper is a script that get cities.csv file which contains table of country cities information.
 
 
 
