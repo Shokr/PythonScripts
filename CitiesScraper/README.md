@@ -6,6 +6,9 @@
 
 ## run script
 ```sh
+
+virtualenv -p python3 venv
+
 source venv/bin/activate
 
 python main.py
@@ -13,6 +16,7 @@ python main.py
 Enter Country Name: Egypt
 
 check 'data/cities.csv'
+
 ```
 
 #### NOTE

@@ -1,0 +1,224 @@
+id,city_name_en,city_name_ar,gov,population,area
+0,Abnūb,أبنوب,ASY,"101,605",1597
+1,Abū al-Maṭāmīr [Abou el-Matamer],أبو المطامير,BHR,"58,576",1093
+2,Abū an-Numrus,أبو النمرس,JIZ,"83,537",651
+3,Abū Ḥammād,أبو حماد,SQY,"39,644",463
+4,Abū Ḥummuṣ [Abou Homs],أبو حمص,BHR,"53,713",551
+5,Abū Kabīr,أبو كبير,SQY,"142,420",2938
+6,Abū Qurqās [Abu Qirqas],أبو قرقاس,MNY,"81,011",988
+7,Abū Ṣuwayr al-Maḥaṭṭah,أبو صوير المحطة,ISM,"30,320",4922
+8,Abū Tīj,ابو تيج,ASY,"95,815",1386
+9,Abū Tisht,أبو تشت,QNA,"17,367",719
+10,Aḍ-Ḍab'ah,الضبعة,MTR,"24,021",7830
+11,Ad-Dilinjāt,الدلنجات,BHR,"60,284",2204
+12,Ajā,أجا,DQH,"43,106",728
+13,Akhmīm,أخميم,SWJ,"140,785",1473
+14,Al-'Arīsh [El Arish],العريش,SSH,"191,584",30756
+15,Al-'Ayyāṭ,العياط,JIZ,"44,171",274
+16,Al-Badārī,البداري,ASY,"50,933",2460
+17,Al-Badrashayn [Badrshein],البدرشين,JIZ,"87,611",1332
+18,Al-Bājūr [El Bagour],الباجور,MNF,"58,651",974
+19,Al-Balyanā [El Balyana],البلينا,SWJ,"63,599",499
+20,Al-Baṣaliyah Baḥri,البصلية بحرى,ASW,"29,256",1087
+21,Al-Bāwīṭī,الباويطى,JIZ,"15,098",4438
+22,Al-Bāyaḍiyah,البياضية,UQS,"21,979",851
+23,Al-Fashn,الفشن,BSW,"101,928",1610
+24,Al-Fatḥ - An-Nāṣiriyah,الفتح - الناصريه,ASY,"20,390",119
+25,Al-Fayyūm [Fayoum],الفيوم,FYM,"489,377",1847
+26,Al-Ghanāyim [El Ghanayem],الغنايم,ASY,"64,429",1317
+27,Al-Ghurdaqah [Hurghada],الغردقة,BAH,"195,675",25772
+28,Al-Ḥammām,الحمام,MTR,"15,963",3306
+29,Al-Ḥāmūl,الحامول,KSH,"54,711",5807
+30,Al-Ḥawāmidiyah,الحوامدية,JIZ,"149,567",1039
+31,Al-Ḥusayniyah,الحسينية,SQY,"46,703",2517
+32,Al-Ibrāhīmiyah,الإبراهيمية,SQY,"49,596",1363
+33,Al-'Idwah,العدوه,MNY,"23,416",849
+34,Al-Iskandariyah [Alexandria],الإسكندرية,ISK,"5,107,530",110755
+35,Al-Ismā'īliyah [Ismaïlia],الإسماعيلية,ISM,"397,446",6885
+36,Al-Jamāliyah,الجماليه,DQH,"91,364",1847
+37,Al-Jīzah (incl. Al-Warrāq,Al-Ahrām) [Giza],الجيزة,"3,021,542","4,212,750"
+38,Al-Khānkah,الخانكة,QLY,"78,185",1045
+39,Al-Khārijah [Kharga],الخارجة,WJD,"75,530",25062
+40,Al-Khuṣūṣ,الخصوص,QLY,"468,194",773
+41,Al-Kurdy,الكردى,DQH,"41,173",1282
+42,Al-Maḥallah al-Kubrā [Mahalla el-Kubra],المحلة الكبرى,GHB,"543,271",1891
+43,Al-Maḥmūdiyah [Mahmoudiyah],المحمودية,BHR,"30,325",274
+44,Al-Manshāh,المنشاة,SWJ,"84,744",1766
+45,Al-Manṣūrah [El Mansoura],المنصورة,DQH,"570,271",2822
+46,Al-Manzilah [Manzala],المنزلة,DQH,"116,807",5016
+47,Al-Marāghah [El Maragha],المراغة,SWJ,"49,872",533
+48,Al-Maṭariyah [El Matareya],المطرية,DQH,"148,591",233
+49,Al-Minyā,المنيا,MNY,"254,523",1498
+50,Al-Minyā al-Jadīdah,المنيا الجديدة,MNY,"15,677",3674
+51,Al-Qāhirah (incl. Ḥulwān) [Cairo],القاهرة,QAH,"9,293,612",60611
+52,Al-Qāhirah al-Jadīdah [New Cairo],القاهرة الجديدة,QAH,"302,926",34251
+53,Al-Qanāṭir al-Khayriyah,القناطر الخيرية,QLY,"80,022",1182
+54,Al-Qanāyāt,القنايات,SQY,"65,172",1786
+55,Al-Qantarah,القنطره,ISM,"44,045",634
+56,Al-Qanṭarah Sharq,القنطرة شرق,ISM,"29,433",11965
+57,Al-Qarnuh al-Jadīdah [Kurna],القرنه الجديده,UQS,"36,276",2174
+58,Al-Qaṣāṣīn al-Jadīdah [New Kasaseen],القصاصين الجديدة,ISM,"22,546",1384
+59,Al-Qurayn,القرين,SQY,"87,250",2358
+60,Al-Quṣayr,القصير,BAH,"47,986",6588
+61,Al-Qūṣiyah,القوصية,ASY,"90,523",1258
+62,Al-'Ubūr [El Ubour],العبور,QLY,"133,102",20923
+63,Al-Uqṣur [Luxor],الأقصر,UQS,"250,704",4299
+64,Al-Waqf,الوقف,QNA,"33,152",3342
+65,Al-Wāsiṭā,الواسطى,BSW,"52,200",502
+66,An-Najaylah [El Negaila],النجيلة,MTR,"17,142",51985
+67,An-Nūbāriyah al-Jadīdah [New Nubariya],النوبارية الجديدة‎,BHR,"20,369",2369
+68,Armant,أرمنت,UQS,"73,438",5508
+69,Ar-Radīsiyah Qiblī,الرديسيه قبلى, ,"14,385",1164
+70,Ar-Raḥmāniyah [Rahmaniya],الرحمانية,BHR,"38,920",2818
+71,Ar-Rawḍah,الروضة,DMY,"29,592",875
+72,Ar-Riyāḍ,الرياض,KSH,"22,708",277
+73,Ashmūn [Ashmoun],أشمون,MNF,"115,973",2335
+74,Ash-Shalātīn,الشلاتين,BAH,"11,732",390976
+75,Ash-Shaykh Zāyid [Sheikh Zayed City],الشيخ زايد,JIZ,"92,457",4313
+76,Ash-Shaykh Zuwayd [Sheikh Zuweid],الشيخ زويد,SSH,"25,687",2845
+77,Ash-Shuhadā',الشهداء,MNF,"70,872",1892
+78,Ash-Shurūq,الشروق,QAH,"88,909",17490
+79,Aṣ-Ṣaff,الصف,JIZ,"59,348",2500
+80,Aṣ-Ṣaliḥiyah al-Jadīdah [New Salhia],الصالحية الجديدة,SQY,"54,695",586
+81,As-Sallūm,السلوم,MTR,"14,349",54293
+82,As-Sanṭah,السنطة,GHB,"42,000",1093
+83,As-Sarw,السرو,DMY,"27,743",1008
+84,As-Sibā'iyah Gharb [Sebaiya],السباعية غرب,ASW,"19,204",1270
+85,As-Sinbillāwayn [El Senbellawein],السنبلاوين,DQH,"113,717",1883
+86,As-Suways [Suez],السويس,SWS,"740,874",312788
+87,Aswān,أسوان,ASW,"337,472",37512
+88,Asyūṭ [Asyut],أسيوط,ASY,"480,516",2660
+89,Aṭfīḥ,اطفيح,JIZ,"25,987",482
+90,At-Tall al-Kabīr,التل الكبير,ISM,"43,459",1856
+91,Aṭ-Ṭūd,الطود,UQS,"28,722",1446
+92,Aṭ-Ṭūr [El Tor],الطور,SJN,"35,046",6001
+93,Awlād Ṣaqr,أولاد صقر,SQY,"30,279",837
+94,Awsīm,أوسيم,JIZ,"90,839",1246
+95,Az-Zaqāzīq [Zagazig],الزقازيق,SQY,"396,852",1403
+96,Az-Zarqā',الزرقاء,DMY,"25,534",730
+97,Az-Zayniyah Qiblī,الزينية قبلي,UQS,"18,665",224
+98,Badr,بدر,BHR,"24,578",2731
+99,Balṭīm,بلطيم,KSH,"48,015",3568
+100,Banhā,بنها,QLY,"174,518",1095
+101,Banī Mazār [Beni Mazar],بنى مزار,MNY,"103,891",819
+102,Banī Suwayf [Beni Suef],بنى سويف,BSW,"246,395",1400
+103,Banī Suwayf al-Jadīdah [New Beni Suef],بنى سويف الجديدة,BSW,"29,117",26762
+104,Banī Ubayd,بني عبيد,DQH,"42,235",2869
+105,Basyūn [Basyoun],بسيون,GHB,"68,839",1915
+106,Bibā,ببا,BSW,"85,404",1713
+107,Bilbays [Bilbeis],بلبيس,SQY,"170,785",3486
+108,Bilqās [Belqas],بلقاس,DQH,"125,686",3251
+109,B'īr al-'Abd,بئر العبد,SSH,"25,319",8020
+110,Birkat as-Sab' [Birket el-Sab],بركة السبع,MNF,"47,436",1052
+111,Biyalā,بيلا,KSH,"83,398",4070
+112,Burj al-'Arab,برج العرب,ISK,"21,780",2842
+113,Burj al-Barlus,برج البرلس,KSH,"56,481",28329
+114,Būr Sa'īd [Port Said],بور سعيد,BSD,"760,152",129425
+115,Damanhūr [Damanhour],دمنهور,BHR,"278,413",684
+116,Dar as-Salām [Dar el-Salam],دار السلام,SWJ,"35,335",2543
+117,Daraw,دراو,ASW,"54,905",1702
+118,Dayr Mawās [Deir Mawas],دير مواس,MNY,"54,598",2132
+119,Dayrūṭ [Dairut],ديروط,ASY,"93,223",644
+120,Dikirnis,دكرنس,DQH,"92,682",2520
+121,Dishnā,دشنا,QNA,"61,812",1247
+122,Disūq [Desouk],دسوق,KSH,"139,794",864
+123,Diyarb Najm,ديرب نجم,SQY,"74,639",863
+124,Dumyāṭ [Damietta],دمياط,DMY,"289,833",353
+125,Fa'id [Fayid],فايد,ISM,"32,450",5537
+126,Fāqūs [Faqous],فاقوس,SQY,"107,819",1078
+127,Fāraskūr,فارسكور,DMY,"41,118",1413
+128,Farshūṭ,فرشوط,QNA,"67,793",613
+129,Fuwah,فوه,KSH,"87,451",2395
+130,Ḥawsh 'Īsā [Hosh Essa],حوش عيسى,BHR,"72,621",2394
+131,Hihyā,ههيا,SQY,"68,987",1176
+132,Ibshawāy [Ibsheway],إبشواى,FYM,"81,264",2038
+133,Idfū [Edfu],إدفو,ASW,"70,657",3609
+134,Idkū,إدكو,BHR,"154,997",7244
+135,Ihnāsiyā,اهناسيا,BSW,"57,782",1111
+136,Isnā [Esna],اسنا,UQS,"90,355",1903
+137,Iṭsā,أطسا,FYM,"70,108",2843
+138,Ityāy al-Bārūd,إيتاى البارود,BHR,"67,899",2564
+139,'Izbat al-Burj,عزبةالبرج,DMY,"50,285",468
+140,Jirjā [Girga],جرجا,SWJ,"140,622",1153
+141,Juhaynah,جهينة,SWJ,"71,174",2273
+142,Kafr ad-Dawwār,كفر الدوار,BHR,"112,467",546
+143,Kafr al-Baṭṭīkh,كفر البطيخ,DMY,"44,716",2120
+144,Kafr ash-Shaykh [Kafr el-Sheikh],كفر الشيخ,KSH,"182,186",1934
+145,Kafr az-Zayyāt,كفر الزيات,GHB,"76,413",919
+146,Kafr Sa'd,كفر سعد,DMY,"17,164",905
+147,Kafr Ṣaqr,كفر صقر,SQY,"41,055",350
+148,Kafr Shukr,كفر شكر,QLY,"29,634",637
+149,Kawm Ḥamādah,كوم حمادة,BHR,"48,691",601
+150,Kawm Umbū [Kom Ombo],كوم امبو,ASW,"103,342",1520
+151,Kirdāsah,كرداسة,JIZ,"132,716",1953
+152,Madīnat 'Ashirh min-Ramaḍān [10th of Ramadan City],مدينة عشرة رمضان,SQY,"226,953",6605
+153,Madīnat as-Sādāt [Sadat City],مدينة السادات,MNF,"66,615",1456
+154,Madīnat Badr [Badr City],مدينة بدر,QAH,"31,877",10346
+155,Madīnat Burj al-'Arab al-Jadīdah [New Borg Al-Arab],مدينه برج العرب الجديده,ISK,"44,511",16621
+156,Madīnat Dumyāṭ al-Jadīdah [New Damietta City],قسم مدينة دمياط الجديدة,DMY,"51,635",4394
+157,Madīnat Sittah Uktūbar [6th October City],مدينة ستة اكتوبر,JIZ,"355,616",43753
+158,Maghāghah,مغاغه,MNY,"106,100",1230
+159,Maḥallah Damanah,محله دمنه,DQH,"29,268",1410
+160,Mallawī,ملوى,MNY,"190,829",1929
+161,Manfalūṭ,منفلوط,ASY,"107,184",1903
+162,Manshat al-Qanāṭir,منشأة القناطر,JIZ,"18,504",236
+163,Marsā Maṭrūḥ [Mersa Matruh],مرسى مطروح,MTR,"153,062",65357
+164,Mashtūl as-Sūq,مشتول السوق,SQY,"69,920",1256
+165,Maṭāy [Matai],ماتاى,MNY,"73,888",1334
+166,Minūf,منوف,MNF,"117,107",1741
+167,Minyā al-Qamḥ,منيا القمح,SQY,"91,535",628
+168,Minyat an-Naṣr,منية النصر,DQH,"75,581",3010
+169,Mīt Abū Ghālb,ميت ابو غالب,DMY,"19,393",935
+170,Mīt Ghamr,ميت غمر,DQH,"140,985",1330
+171,Mīt Salsīl,ميت سلسيل,DQH,"44,160",2845
+172,Munshāh Abū 'Umar,منشاه ابوعمر,SQY,"20,786",0
+173,Mūṭ (Ad-Dākhlah) [Dakhla],الداخلة,WJD,"24,376",3534
+174,Muṭūbis [Metoubes],مطوبس,KSH,"41,106",1407
+175,Nabarūh,نبروه,DQH,"54,286",1215
+176,Naj' Ḥammādī,نجع حمادى,QNA,"56,899",443
+177,Naqādah [Naqada],نقادة,QNA,"25,561",1038
+178,Nāṣir Būsh, ناصر-بوش سابقا,BSW,"123,075",3588
+179,Qahā,قها,QLY,"34,686",949
+180,Qallīn,قلين,KSH,"45,164",1699
+181,Qalyūb,قليوب,QLY,"149,737",2143
+182,Qifṭ [Gebtu,Coptos],قفط,"22,063","22,921"
+183,Qinā [Qena],قنا,QNA,"241,422",3158
+184,Qūṣ,قوص,QNA,"80,559",1568
+185,Quṭūr,قطور,GHB,"29,380",1495
+186,Quwaysinā [Quweisna],قويسنا,MNF,"61,193",641
+187,Rafaḥ,رفح,SSH,"42,516",5904
+188,Rās al-Bar,راس البر,DMY,"9,677",2237
+189,Ras Ghārib,رأس غارب,BAH,"42,365",493957
+190,Rashīd [Rosetta],رشيد,BHR,"110,048",9228
+191,Safājā [Safaga],سفاجا,BAH,"50,665",99464
+192,Sāḥīl Salim [Sahel Selim],ساحل سليم,ASY,"49,167",1529
+193,Samālūṭ,سمالوط,MNY,"127,447",1393
+194,Samannūd,سمنود,GHB,"80,606",1923
+195,Ṣān al-Ḥajar [Tanis],صان الحجر القبلية,SQY,"28,555",0
+196,Sāqultah [Sakulta],ساقلته,SWJ,"31,864",854
+197,Sawhāj [Sohag],سوهاج,SWJ,"248,174",903
+198,Sharm ash-Shaykh [Sharm el-Sheikh],شرم الشيخ,SJN,...,4466
+199,Shibīn al-Kawm [Shibin el-Kom],شبين الكوم,MNF,"249,611",2852
+200,Shibīn al-Qanāṭir [Shibin el-Qanater],شبين القناطر,QLY,"70,585",1044
+201,Shirbīn,شربين,DQH,"69,761",1039
+202,Shubrā al-Khaymah [Shubra el-Kheima],شبرا الخيمة,QLY,"1,187,747",2999
+203,Shubrākhīt,شبراخيت,BHR,"36,077",856
+204,Ṣidfā [Sodfa],صدفا,ASY,"27,475",367
+205,Sīdī Barrānī,سيدى برانى,MTR,"33,173",59160
+206,Sīdī Ghāzī,سيدى غازى,KSH,"26,344",1536
+207,Sīdī Sālim,سيدي سالم,KSH,"41,864",1117
+208,Sinnūris,سنورس,FYM,"125,905",1309
+209,Sirs al-Layyānah,سرس الليانة,MNF,"72,821",1615
+210,Sīwa,سيوة,MTR,"21,711",20055
+211,Sumusṭā al-Waqf,سمسطا,BSW,"58,601",1940
+212,Ṭahṭā,طهطا,SWJ,"124,874",555
+213,Talā,تلا,MNF,"67,576",2299
+214,Ṭalkhā,طلخا,DQH,"103,471",1172
+215,Tama al-Āmdīd,تمى الامديد,DQH,"18,695",720
+216,Ṭāmiyah [Tamiya],طامية,FYM,"68,897",1484
+217,Ṭanṭā,طنطا,GHB,"528,672",1953
+218,Ṭimā,طما,SWJ,"94,021",1206
+219,Ṭūkh,طوخ,QLY,"50,360",650
+220,Wadi an-Natrun [Natron Valley],وادى النطرون ,BHR,"36,033",4229
+221,Yūsuf aṣ-Ṣiddīq, يوسف الصديق,FYM,"22,596",9616
+222,Ziftā,زفتى,GHB,"102,411",1624
