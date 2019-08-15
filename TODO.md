@@ -43,3 +43,10 @@
 - Contact Book
 - Check Website Availability
 - TECH-NEWS notifications
+- Backup mysql database and send it to your email script
+- An alarm to tell you to go home.
+- github repo analytics
+- Convert Python scripts to pdf
+- Track your computer Open/shutdown Times
+- PDF2TEXT
+- 
