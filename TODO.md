@@ -40,4 +40,6 @@
 - SQL-CSV
 - PyFirebase
 - Age_Calulator
-- 
+- Contact Book
+- Check Website Availability
+- TECH-NEWS notifications
