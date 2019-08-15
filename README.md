@@ -3,7 +3,7 @@
 
 Usually, I create a new script everyday, scripts for dealing with everything in python.
 
-Hope my scripts gets you inspired at your work, or even makes you jealous and port them, enhance them, or even create your own ideas.
+Hope my scripts gets you inspired at your work, or even makes you jealous and port them, enhance them, or even create your own ideas, like this idea inspired by [RubyScripts](https://git.io/fjdO9).
 
 Each script i create a directory with script and it's all info in , put it in following table with today's date, and tweet script on  [@MuhammedShokr](https://twitter.com/MuhammedShokr) , Post on  [linkedin](https://www.linkedin.com/in/muhammedshokr/).
 
@@ -51,5 +51,3 @@ Muhammed Shokr – [@MuhammedShokr](https://twitter.com/MuhammedShokr) –  moha
 ## License
 This project is released under MIT license, you are free to use it for personal and commercial projects.
 
-### Inspired by
-[RubyScripts](https://git.io/fjdO9) 
