@@ -46,7 +46,7 @@ jupyter notebook xxxxxxx.ipynb
 
 
 ## Credits
-[MuhammedShokr](https://github.com/Shokr) –  mohammedshokr2014@gmail.com
+[Muhammed Shokr](https://github.com/Shokr) –  mohammedshokr2014@gmail.com
 
 ## License
 This project is released under MIT license, you are free to use it for personal and commercial projects.
