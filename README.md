@@ -1,11 +1,11 @@
-# Python_Playbook
-> My Python_Playbook is collection of tiny programs that each demonstrate a particular concept in Python.
+# Daily Python Scripts
+> Daily Python Scripts is a collection of scripts that each explain a particular concept in Python.
 
 Usually, I create a new script everyday, scripts for dealing with everything in python.
 
-Hope my scripts gets you inspired at your work, or even makes you jealous and port them, enhance them, or even create your own ideas,
+Hope my scripts gets you inspired at your work, or even makes you jealous and port them, enhance them, or even create your own ideas.
 
-Each day i create a directory with the today's date and put my code in, and tweet script on  [@MuhammedShokr](https://twitter.com/MuhammedShokr) 
+Each script i create a directory with script and it's all info in , put it in following table with today's date, and tweet script on  [@MuhammedShokr](https://twitter.com/MuhammedShokr) , Post on  [linkedin](https://www.linkedin.com/in/muhammedshokr/).
 
 
 ## Table Of Content
@@ -24,6 +24,7 @@ Each day i create a directory with the today's date and put my code in, and twee
 |0010|30-07-2019| [Factory Pattern](https://git.io/fj5xE)  |`Creational_Pattern` |
 |0011|14-08-2019| [Cities Scraper](https://git.io/fj5xe)  |`Scraper` |
 
+
 ## run script
 ```sh
 python Script.py
@@ -34,10 +35,8 @@ jupyter notebook xxxxxxx.ipynb
 ```
 
 
-
 ## Contributing
-> feel free to fork this repository and enhance whatever script you want,
-just show the world how you code, think and do magic with your keyboard.
+> feel free to fork this repository and enhance whatever script you want, just show the world how you code, think and do magic with your keyboard.
 
 1. Fork it 
 2. Create your feature branch (`git checkout -b feature/xxxxx`)
@@ -52,3 +51,5 @@ Muhammed Shokr – [@MuhammedShokr](https://twitter.com/MuhammedShokr) –  moha
 ## License
 This project is released under MIT license, you are free to use it for personal and commercial projects.
 
+### Inspired by
+[RubyScripts](https://git.io/fjdO9) 
