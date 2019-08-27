@@ -1,4 +1,4 @@
-# In serializer.py
+#In serializer.py -> Factory Method Example in Python
 
 import json
 import xml.etree.ElementTree as et
