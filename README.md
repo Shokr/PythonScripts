@@ -1,4 +1,4 @@
-# Daily Python Scripts
+# Daily Python Scripts :snake:
 > Daily Python Scripts is a collection of scripts that each explain a particular concept in Python.
 
 Usually, I create a new script everyday, scripts for dealing with everything in python.
@@ -46,7 +46,7 @@ jupyter notebook xxxxxxx.ipynb
 
 
 ## Credits
-Muhammed Shokr – [@MuhammedShokr](https://twitter.com/MuhammedShokr) –  mohammedshokr2014@gmail.com
+[Muhammed Shokr](https://github.com/Shokr) –  mohammedshokr2014@gmail.com
 
 ## License
 This project is released under MIT license, you are free to use it for personal and commercial projects.
