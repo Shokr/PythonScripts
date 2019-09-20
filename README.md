@@ -21,8 +21,9 @@ Each script i create a directory with script and it's all info in , put it in fo
 |0007|7-02-2019| [Symmetric Encryption - DES](https://git.io/fjH8n)  |`pyDes` `py2`|
 |0008|8-02-2019| [Python Progress Bar](https://git.io/fjH8c)  |`Terminal` `py3`|
 |0009|9-03-2019| [Get Current Dir Info](https://git.io/fjH8C)  |`OS` |
-|0010|30-07-2019| [Factory Pattern](https://git.io/fj5xE)  |`Creational_Pattern` |
+|0010|30-07-2019| [Factory Method](https://git.io/fjADl)  |`Creational_Pattern` |
 |0011|14-08-2019| [Cities Scraper](https://git.io/fj5xe)  |`Scraper` |
+|0013|20-08-2019| [Network Scaner](https://git.io/fjAD8)  |`network` `nmap` |
 
 
 ## run script
