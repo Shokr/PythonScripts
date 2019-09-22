@@ -49,4 +49,5 @@
 - Convert Python scripts to pdf
 - Track your computer Open/shutdown Times
 - PDF2TEXT
-- 
+- scrappy_spider
+- requests
