@@ -22,7 +22,7 @@ Each script i create a directory with script and it's all info in , put it in fo
 |0008|8-02-2019| [Python Progress Bar](https://git.io/fjH8c)  |`Terminal` `py3`|
 |0009|9-03-2019| [Get Current Dir Info](https://git.io/fjH8C)  |`OS` |
 |0010|30-07-2019| [Factory Method](https://git.io/fjADl)  |`Creational_Pattern` |
-|0011|14-08-2019| [Cities Scraper]()  |`Scraping` |
+|0011|14-08-2019| [Cities Scraper](https://git.io/JeBzD)  |`Scraping` |
 |0012|20-08-2019| [Network Scaner](https://git.io/fjAD8)  |`network` `nmap` |
 |0013|22-09-2019| [Binary Tree](https://git.io/JesGr)  |`Tree` `notebook` |
 |0014|23-09-2019| [Site Downloader](https://git.io/Jes26)  |`BS4` `notebook` |
