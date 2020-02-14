@@ -1,9 +1,6 @@
-'''
-
+"""
 - Simple Finite State Machine [ Locked, Unlocked ]
-- Develop by: Muhammed Shokr [muhammedshokr2014@gmail.com]
-
-'''
+"""
 
 
 class State(object):
