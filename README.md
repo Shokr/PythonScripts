@@ -3,40 +3,30 @@
 
 Usually, I create a new script everyday, scripts for dealing with everything in python.
 
-Hope my scripts gets you inspired at your work, or even makes you jealous and port them, enhance them, or even create your own ideas, like this idea inspired by [RubyScripts](https://git.io/fjdO9).
+Hope my scripts gets you inspired at your work, or even makes you jealous and port them, enhance them, or even create your own ideas.
 
 Each script i create a directory with script and it's all info in , put it in following table with today's date, and tweet script on  [@MuhammedShokr](https://twitter.com/MuhammedShokr) , Post on  [linkedin](https://www.linkedin.com/in/muhammedshokr/).
 
 
 ## Table Of Content
 
-|Num.| Date                     | Title                                                           | Tags                         |
-|----|:------------------------ |:--------------------------------------------------------------- | ----------------------------:|
-|0001|1-01-2019| [Simple Blockchain Data Structure](https://git.io/fjH8L)  |`Blockchain` `notebook`|
-|0002|2-01-2019| [Image-Metadata-Viewer](https://git.io/fjH8q)  |`ImageMetadata` `Script`|
-|0003|3-01-2019| [Control windows programs with your voice](https://git.io/fjH8m)  |`JARVIS` `Script`|
-|0004|4-01-2019| [Convert Json To Xml](https://git.io/fjH8Y)  |`dicttoxml` `py2`|
-|0005|5-02-2019| [Socket Programming](https://git.io/fjH8O)  |`Socket` |
-|0006|6-02-2019| [Asymmetric Encryption - RSA](https://git.io/fjH83)  |`RSA` `py2`|
-|0007|7-02-2019| [Symmetric Encryption - DES](https://git.io/fjH8n)  |`pyDes` `py2`|
-|0008|8-02-2019| [Python Progress Bar](https://git.io/fjH8c)  |`Terminal` `py3`|
-|0009|9-03-2019| [Get Current Dir Info](https://git.io/fjH8C)  |`OS` |
-|0010|30-07-2019| [Factory Method](https://git.io/fjADl)  |`Creational_Pattern` |
-|0011|14-08-2019| [Cities Scraper](https://git.io/JeBzD)  |`Scraping` |
-|0012|20-08-2019| [Network Scaner](https://git.io/fjAD8)  |`network` `nmap` |
-|0013|22-09-2019| [Binary Tree](https://git.io/JesGr)  |`Tree` `notebook` |
-|0014|23-09-2019| [Site Downloader](https://git.io/JvnUt)  |`BS4` `notebook` |
-|0015|07-02-2020| [Images Downloader](https://git.io/JvnJh)  |`os` `requests` |
-|0016|14-02-2020| [Finite State Machine]()  |`FSM` `CS` |
+|Num.| Category                                          | Description                      |
+|----| :-----------------------------------------------: | :-----------------------------:  |
+|0001| [Algorithms](./Algorithms)                        |`algorithms`                      |
+|0002| [API](./API)                                      |`apiS`                            |
+|0003| [Automation](./Automation)                        |`automation`                      |
+|0004| [Cloud](./Cloud)                                  |`aws`                             |
+|0005| [Computer science](./Computer_science)            |`CS`                              |
+|0006| [Databases](./Databases)                          |`databases`                       |
+|0007| [Data Science](Data_Science)                      |`Data Science`                    |
+|0008| [DESIGN PATTERNS](./DESIGN_PATTERNS)              |`DESIGN PATTERNS`                 |
+|0009| [Network](./Network)                              |`Networking`                      |
+|0010| [OS](./OS)                                        |`OS`                              |
+|0011| [Scraping](./Scraping)                            |`Scraping`                        |
+|0012| [WEB](./WEB)                                      |`web`                             |
+|0013| [MISC](./MISC)                                    |`Others`                          |
+|    |                                                   |                                  |
 
-## run script
-```sh
-python Script.py
-```
-#### run notebook
-```sh
-jupyter notebook xxxxxxx.ipynb
-```
 
 
 ## Contributing
@@ -51,6 +41,7 @@ jupyter notebook xxxxxxx.ipynb
 
 ## Credits
 [Muhammed Shokr](https://github.com/Shokr) –  mohammedshokr2014@gmail.com
+
 
 ## License
 This project is released under MIT license, you are free to use it for personal and commercial projects.
