@@ -1,4 +1,8 @@
 # Daily Python Scripts :snake:
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)     
+
+
 > Daily Python Scripts is a collection of scripts that each explain a particular concept in Python.
 
 Usually, I create a new script everyday, scripts for dealing with everything in python.
