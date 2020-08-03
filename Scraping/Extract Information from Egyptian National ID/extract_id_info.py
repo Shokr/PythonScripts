@@ -104,7 +104,8 @@ class EgyptionNationalId(_ENID):
                   gender)
         return fields
 
-    def __get_century_from_year(self, year):
+    @staticmethod
+    def __get_century_from_year(year):
         return year // 100 + 1
 
     def __get_birth_century(self, birth_century_code):

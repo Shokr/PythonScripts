@@ -22,7 +22,8 @@ print(car.randomValue)  # Calling the instance attribute
 # Python uses DEPTH FIRST SEARCH algorithm for lookups
 
 class A(object):
-    def doThis(self):
+    @staticmethod
+    def doThis():
         print('Doing this in A')
 
 
@@ -32,7 +33,8 @@ class B(A):
 
 # If class C was also eing derived from A then the lookup order would be D,B,C,A
 class C(object):
-    def doThis(self):
+    @staticmethod
+    def doThis():
         print('Doing this in C')
 
 
