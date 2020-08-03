@@ -16,7 +16,6 @@ car = Vehicle()
 car.type()  # Calling the class Method
 print(car.randomValue)  # Calling the instance attribute
 
-
 ######################################################################################################
 # This program shows the order in which the classes are accessed in case of multiple inheritance
 # Python uses DEPTH FIRST SEARCH algorithm for lookups
@@ -45,10 +44,10 @@ class D(B, A):
 
 if __name__ == "__main__":
     dObj = D()
-    dObj.doThis()  # A method gets called because order for lookup is D,B,A,C this is shown by function mro
+    dObj.doThis(
+    )  # A method gets called because order for lookup is D,B,A,C this is shown by function mro
 
     print(D.mro())
-
 
 ######################################################################################################
 
@@ -74,7 +73,6 @@ if __name__ == "__main__":
     # Private variable can be accessed like this but NEVER EVER
     print(myObj._Person__education)
     # do this please!!
-
 
 ######################################################################################################
 
@@ -123,7 +121,6 @@ if __name__ == "__main__":
     print(int(Omkar))  # 1000 (__int__)
     print(int(Jagdish))  # 2000 (__int__)
     print(Omkar == Jagdish)
-
 
 ######################################################################################################
 
