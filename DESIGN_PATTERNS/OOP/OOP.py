@@ -1,6 +1,5 @@
 # Instance attributes are accessed by: object.attribute
 # Attributes are looked First in the instance and THEN in the class
-
 import random
 
 

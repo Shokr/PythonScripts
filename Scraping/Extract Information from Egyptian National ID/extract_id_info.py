@@ -21,7 +21,6 @@ z(1) number Ministry of Interior added it to validate if the National ID fake or
 
 script usage usage: extractor.py [-h] national_id
 """
-
 import sys
 from collections import namedtuple
 from datetime import datetime
