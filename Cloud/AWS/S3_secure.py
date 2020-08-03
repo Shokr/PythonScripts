@@ -1,5 +1,5 @@
-from key import *
 import boto3
+from key import *
 
 s3 = boto3.client(
     "s3",
