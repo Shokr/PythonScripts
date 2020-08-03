@@ -9,7 +9,8 @@ class Vehicle():
     def type(self):
         # NOTE: This is not a class attribute as the variable is binded to self. Hence it becomes
         # instance attribute
-        self.randomValue = random.randint(1, 10)  # Setting the instance attribute
+        # Setting the instance attribute
+        self.randomValue = random.randint(1, 10)
 
 
 car = Vehicle()
@@ -69,7 +70,8 @@ if __name__ == '__main__':
     myObj.displayInfo()
     print(myObj.name)  # Can be accessed as it is public variable
     # print(myObj.__education)                  # Throws an error
-    print(myObj._Person__education)  # Private variable can be accessed like this but NEVER EVER
+    # Private variable can be accessed like this but NEVER EVER
+    print(myObj._Person__education)
     # do this please!!
 
 
@@ -110,9 +112,11 @@ class Employee(object):
 if __name__ == '__main__':
     Omkar = Employee('Omkar', 'Pathak', 1000)
     Jagdish = Employee('Jagdish', 'Pathak', 2000)
-    print(Omkar)  # Full Name: Omkar Pathak (This output because of __str__ method overloading)
+    # Full Name: Omkar Pathak (This output because of __str__ method overloading)
+    print(Omkar)
     print(Jagdish)  # Full Name: Jagdish Pathak
-    print(Omkar + Jagdish)  # 3000 (This output because of __add__ method overloading)
+    # 3000 (This output because of __add__ method overloading)
+    print(Omkar + Jagdish)
     print(Omkar * Jagdish)  # 2000000 (__mul__)
     print(int(Omkar))  # 1000 (__int__)
     print(int(Jagdish))  # 2000 (__int__)
