@@ -1,7 +1,7 @@
 # Daily Python Scripts :snake:
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)     
-
+[![DeepSource](https://static.deepsource.io/deepsource-badge-light-mini.svg)](https://deepsource.io/gh/Shokr/PythonScripts/?ref=repository-badge)
 
 > Daily Python Scripts is a collection of scripts that each explain a particular concept in Python.
 
