@@ -15,7 +15,7 @@ Each script i create a directory with script and it's all info in , put it in fo
 ## Table Of Content
 
 |Num.| Category                                          | Description                           |                                  |
-|----| :-----------------------------------------------: | :-----------------------------:       | :-----------------------------:  |
+|----| :-----------------------------------------------: | :-----------------------------:       |                                  |
 |0001| [Algorithms](https://github.com/Shokr/PythonScripts/tree/master/Algorithms)               |`algorithms`                      |
 |0002| [API](./API)                                                                              |`apiS`                            |
 |0003| [Automation](https://github.com/Shokr/PythonScripts/tree/master/Automation)               |`automation`                      |
