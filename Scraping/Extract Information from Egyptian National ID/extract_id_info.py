@@ -33,7 +33,16 @@ class ValidationError(Exception):
         self.errors = errors
 
 
-_ENID = namedtuple('_ENID', ['birth_century', 'date_of_birth', 'birth_governorate', 'sequence_in_computer', 'gender'])
+_ENID = namedtuple(
+    "_ENID",
+    [
+        "birth_century",
+        "date_of_birth",
+        "birth_governorate",
+        "sequence_in_computer",
+        "gender",
+    ],
+)
 
 
 class EgyptionNationalId(_ENID):
@@ -52,35 +61,38 @@ class EgyptionNationalId(_ENID):
     >> id.birth_date.governorate
     'New Valley'
     """
-    fake_national_id_message = 'This National ID Not Valid'
-    governorates = {'01': 'Cairo',
-                    '02': 'Alexandria',
-                    '03': 'Port Said',
-                    '04': 'Suez',
-                    '11': 'Damietta',
-                    '12': 'Dakahlia',
-                    '13': 'Ash Sharqia',
-                    '14': 'Kaliobeya',
-                    '15': 'Kafr El - Sheikh',
-                    '16': 'Gharbia',
-                    '17': 'Monoufia',
-                    '18': 'El Beheira',
-                    '19': 'Ismailia',
-                    '21': 'Giza',
-                    '22': 'Beni Suef',
-                    '23': 'Fayoum',
-                    '24': 'El Menia',
-                    '25': 'Assiut',
-                    '26': 'Sohag',
-                    '27': 'Qena',
-                    '28': 'Aswan',
-                    '29': 'Luxor',
-                    '31': 'Red Sea',
-                    '32': 'New Valley',
-                    '33': 'Matrouh',
-                    '34': 'North Sinai',
-                    '35': 'South Sinai',
-                    '88': 'Foreign'}
+
+    fake_national_id_message = "This National ID Not Valid"
+    governorates = {
+        "01": "Cairo",
+        "02": "Alexandria",
+        "03": "Port Said",
+        "04": "Suez",
+        "11": "Damietta",
+        "12": "Dakahlia",
+        "13": "Ash Sharqia",
+        "14": "Kaliobeya",
+        "15": "Kafr El - Sheikh",
+        "16": "Gharbia",
+        "17": "Monoufia",
+        "18": "El Beheira",
+        "19": "Ismailia",
+        "21": "Giza",
+        "22": "Beni Suef",
+        "23": "Fayoum",
+        "24": "El Menia",
+        "25": "Assiut",
+        "26": "Sohag",
+        "27": "Qena",
+        "28": "Aswan",
+        "29": "Luxor",
+        "31": "Red Sea",
+        "32": "New Valley",
+        "33": "Matrouh",
+        "34": "North Sinai",
+        "35": "South Sinai",
+        "88": "Foreign",
+    }
 
     @classmethod
     def from_str(cls, national_id):
@@ -90,21 +102,26 @@ class EgyptionNationalId(_ENID):
     @classmethod
     def parse_str(cls, national_id):
         if len(national_id) != 14 or national_id.isdigit() is False:
-            raise ValidationError('National id format not valid', cls.fake_national_id_message)
+            raise ValidationError(
+                "National id format not valid", cls.fake_national_id_message
+            )
         birth_century = cls.__get_birth_century(cls, int(national_id[0]))
         date_of_birth = cls.__convert_birthdate(cls, national_id[0:7])
         birth_governorate = cls.__get_birth_governorate(cls, national_id[7:9])
         sequence_in_computer = national_id[9:13]
         gender = cls.__get_gender(cls, int(national_id[12]))
 
-        fields = (birth_century,
-                  date_of_birth,
-                  birth_governorate,
-                  sequence_in_computer,
-                  gender)
+        fields = (
+            birth_century,
+            date_of_birth,
+            birth_governorate,
+            sequence_in_computer,
+            gender,
+        )
         return fields
 
-    def __get_century_from_year(self, year):
+    @staticmethod
+    def __get_century_from_year(year):
         return year // 100 + 1
 
     def __get_birth_century(self, birth_century_code):
@@ -114,11 +131,14 @@ class EgyptionNationalId(_ENID):
         :return: birth century
         """
 
-        current_century = self.__get_century_from_year(self, int(datetime.now().year))
+        current_century = self.__get_century_from_year(
+            self, int(datetime.now().year))
         birth_century = birth_century_code + 18
 
         if (birth_century < 19) and (birth_century > current_century):
-            raise ValidationError('birth century not valid', self.fake_national_id_message)
+            raise ValidationError(
+                "birth century not valid", self.fake_national_id_message
+            )
         return birth_century
 
     def __get_birth_governorate(self, birth_governorate_coda):
@@ -131,7 +151,8 @@ class EgyptionNationalId(_ENID):
         try:
             return self.governorates[birth_governorate_coda]
         except:
-            raise ValidationError('birth governorate code not valid', sys.exc_info()[0])
+            raise ValidationError(
+                "birth governorate code not valid", sys.exc_info()[0])
 
     def __get_gender(self, gender_code):
         """
@@ -142,11 +163,13 @@ class EgyptionNationalId(_ENID):
                 Gender
         """
         if gender_code < 0 and gender_code > 9:
-            raise ValidationError('gender code not valid', self.fake_national_id_message)
+            raise ValidationError(
+                "gender code not valid", self.fake_national_id_message
+            )
         if gender_code % 2 == 0:
-            return 'أنثى'
+            return "أنثى"
         else:
-            return 'ذكر'
+            return "ذكر"
 
     def __convert_birthdate(self, birthdate):
         """
@@ -162,8 +185,11 @@ class EgyptionNationalId(_ENID):
         birth_month = birthdate[3:5]
         birth_day = birthdate[5:]
         birth_full_year = (birth_century * 100) - 100 + int(birth_year)
-        birthdate_str = '{0}-{1}-{2}'.format(birth_full_year, birth_month, birth_day)
-        birthdate_date = datetime.strptime(birthdate_str, '%Y-%m-%d')
-        if birthdate_date > datetime.now() and birthdate_date < datetime.strptime('1900-01-01', '%Y-%m-%d'):
-            raise ValidationError('birthdate not valid', sys.exc_info()[0])
+        birthdate_str = "{0}-{1}-{2}".format(birth_full_year,
+                                             birth_month, birth_day)
+        birthdate_date = datetime.strptime(birthdate_str, "%Y-%m-%d")
+        if birthdate_date > datetime.now() and birthdate_date < datetime.strptime(
+            "1900-01-01", "%Y-%m-%d"
+        ):
+            raise ValidationError("birthdate not valid", sys.exc_info()[0])
         return birthdate_str

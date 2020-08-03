@@ -4,12 +4,13 @@
 import random
 
 
-class Vehicle():
+class Vehicle:
     # Class Methods/ Attributes
     def type(self):
         # NOTE: This is not a class attribute as the variable is binded to self. Hence it becomes
         # instance attribute
-        self.randomValue = random.randint(1, 10)  # Setting the instance attribute
+        # Setting the instance attribute
+        self.randomValue = random.randint(1, 10)
 
 
 car = Vehicle()
@@ -21,9 +22,11 @@ print(car.randomValue)  # Calling the instance attribute
 # This program shows the order in which the classes are accessed in case of multiple inheritance
 # Python uses DEPTH FIRST SEARCH algorithm for lookups
 
+
 class A(object):
-    def doThis(self):
-        print('Doing this in A')
+    @staticmethod
+    def doThis():
+        print("Doing this in A")
 
 
 class B(A):
@@ -32,15 +35,16 @@ class B(A):
 
 # If class C was also eing derived from A then the lookup order would be D,B,C,A
 class C(object):
-    def doThis(self):
-        print('Doing this in C')
+    @staticmethod
+    def doThis():
+        print("Doing this in C")
 
 
 class D(B, A):
     pass
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     dObj = D()
     dObj.doThis()  # A method gets called because order for lookup is D,B,A,C this is shown by function mro
 
@@ -51,23 +55,26 @@ if __name__ == '__main__':
 
 # In this example we will see how the private variables work in Python
 
+
 class Person(object):
     def __init__(self, name):
         self.name = name
-        self.__education = 'Engineer'  # Private Variable
+        self.__education = "Engineer"  # Private Variable
 
     def displayInfo(self):
         name = self.name
         education = self.__education  # Can only be accessed within the class
-        print('My name is', name, 'and I have completed my', education)
+        print("My name is", name, "and I have completed my", education)
 
 
-if __name__ == '__main__':
-    myObj = Person('Shokr')
+if __name__ == "__main__":
+    myObj = Person("Shokr")
     myObj.displayInfo()
     print(myObj.name)  # Can be accessed as it is public variable
     # print(myObj.__education)                  # Throws an error
-    print(myObj._Person__education)  # Private variable can be accessed like this but NEVER EVER
+    print(
+        myObj._Person__education
+    )  # Private variable can be accessed like this but NEVER EVER
     # do this please!!
 
 
@@ -78,6 +85,7 @@ if __name__ == '__main__':
 # methods are invoked directly after creation of a class instance. For example:
 # __init__ is a Magic method. Also __str__, __repr__, __add__ are all magic methods.
 
+
 class Employee(object):
     def __init__(self, firstname, lastname, salary=0):
         self.firstname = firstname
@@ -85,7 +93,7 @@ class Employee(object):
         self.salary = salary
 
     def __str__(self):
-        return 'Full Name: ' + self.firstname + ' ' + self.lastname
+        return "Full Name: " + self.firstname + " " + self.lastname
 
     # Implements behaviour for built in type comparison to int
     def __int__(self):
@@ -105,12 +113,15 @@ class Employee(object):
         return self.salary * other.salary
 
 
-if __name__ == '__main__':
-    Omkar = Employee('Omkar', 'Pathak', 1000)
-    Jagdish = Employee('Jagdish', 'Pathak', 2000)
-    print(Omkar)  # Full Name: Omkar Pathak (This output because of __str__ method overloading)
+if __name__ == "__main__":
+    Omkar = Employee("Omkar", "Pathak", 1000)
+    Jagdish = Employee("Jagdish", "Pathak", 2000)
+    print(
+        Omkar
+    )  # Full Name: Omkar Pathak (This output because of __str__ method overloading)
     print(Jagdish)  # Full Name: Jagdish Pathak
-    print(Omkar + Jagdish)  # 3000 (This output because of __add__ method overloading)
+    # 3000 (This output because of __add__ method overloading)
+    print(Omkar + Jagdish)
     print(Omkar * Jagdish)  # 2000000 (__mul__)
     print(int(Omkar))  # 1000 (__int__)
     print(int(Jagdish))  # 2000 (__int__)
@@ -122,15 +133,16 @@ if __name__ == '__main__':
 # A Python generator is a function which returns a generator iterator (just an object we can iterate over)
 # by calling yield
 
+
 def simpleGenerator(numbers):
     i = 0
     while True:
-        check = input('Wanna generate a number? (If yes, press y else n): ')
-        if check in ('Y', 'y') and len(numbers) > i:
+        check = input("Wanna generate a number? (If yes, press y else n): ")
+        if check in ("Y", "y") and len(numbers) > i:
             yield numbers[i]
             i += 1
         else:
-            print('Bye!')
+            print("Bye!")
             break
 
 
