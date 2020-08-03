@@ -19,7 +19,7 @@ class Car:
     def specification(self):
         print("body: %s" % self.__body.shape)
         print("engine horsepower: %d" % self.__engine.horsepower)
-        print("tire size: %d\'" % self.__wheels[0].size)
+        print("tire size: %d'" % self.__wheels[0].size)
 
     def clone(self):
         return deepcopy(self)
@@ -67,11 +67,14 @@ class Director:
 
 
 class BuilderInterface:
-    def getWheel(self): pass
+    def getWheel(self):
+        pass
 
-    def getEngine(self): pass
+    def getEngine(self):
+        pass
 
-    def getBody(self): pass
+    def getBody(self):
+        pass
 
 
 class JeepBuilder(BuilderInterface):
