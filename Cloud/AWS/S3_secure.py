@@ -9,8 +9,7 @@ s3 = boto3.client(
 )
 
 s3.upload_file(Filename="upload/allah.png",
-               Bucket="shokr-1862020",
-               Key="testing.png")
+               Bucket="shokr-1862020", Key="testing.png")
 
 # Set ACL to 'public-read'
 
