@@ -2,6 +2,7 @@
 
 import sys
 
+
 def main():
     # Disable SSL warnings
     try:
