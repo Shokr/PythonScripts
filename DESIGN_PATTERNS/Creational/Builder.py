@@ -3,7 +3,7 @@ from copy import deepcopy
 
 class Car:
     def __init__(self):
-        self.__wheels = list()
+        self.__wheels = []
         self.__engine = None
         self.__body = None
 
