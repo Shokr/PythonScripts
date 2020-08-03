@@ -14,22 +14,22 @@ Each script i create a directory with script and it's all info in , put it in fo
 
 ## Table Of Content
 
-|Num.| Category                                          | Description                      |
-|----| :-----------------------------------------------: | :-----------------------------:  |
-|0001| [Algorithms](./Algorithms)                        |`algorithms`                      |
-|0002| [API](./API)                                      |`apiS`                            |
-|0003| [Automation](./Automation)                        |`automation`                      |
-|0004| [Cloud](./Cloud)                                  |`aws`                             |
-|0005| [Computer science](./Computer_science)            |`CS`                              |
-|0006| [Databases](./Databases)                          |`databases`                       |
-|0007| [Data Science](Data_Science)                      |`Data Science`                    |
-|0008| [DESIGN PATTERNS](./DESIGN_PATTERNS)              |`DESIGN PATTERNS`                 |
-|0009| [Network](./Network)                              |`Networking`                      |
-|0010| [OS](./OS)                                        |`OS`                              |
-|0011| [Scraping](./Scraping)                            |`Scraping`                        |
-|0012| [WEB](./WEB)                                      |`web`                             |
-|0013| [MISC](./MISC)                                    |`Others`                          |
-|    |                                                   |                                  |
+|Num.| Category                                          | Description                           |                                  |
+|----| :-----------------------------------------------: | :-----------------------------:       | :-----------------------------:  |
+|0001| [Algorithms](https://github.com/Shokr/PythonScripts/tree/master/Algorithms)               |`algorithms`                      |
+|0002| [API](./API)                                                                              |`apiS`                            |
+|0003| [Automation](https://github.com/Shokr/PythonScripts/tree/master/Automation)               |`automation`                      |
+|0004| [Cloud](https://github.com/Shokr/PythonScripts/tree/master/Cloud)                         |`aws`                             |
+|0005| [Computer science](https://github.com/Shokr/PythonScripts/tree/master/Computer_Science)   |`CS`                              |
+|0006| [Databases](https://github.com/Shokr/PythonScripts/tree/master/Databases)                 |`databases`                       |
+|0007| [Data Science](Data_Science)                                                              |`Data Science`                    |
+|0008| [DESIGN PATTERNS](https://github.com/Shokr/PythonScripts/tree/master/DESIGN_PATTERNS)     |`DESIGN PATTERNS`                 |
+|0009| [Network](https://github.com/Shokr/PythonScripts/tree/master/Network)                     |`Networking`                      |
+|0010| [OS](https://github.com/Shokr/PythonScripts/tree/master/OS)                               |`OS`                              |
+|0011| [Scraping](./Scraping)                                                                    |`Scraping`                        |
+|0012| [WEB](https://github.com/Shokr/PythonScripts/tree/master/WEB)                             |`web`                             |
+|0013| [Cryptography](https://github.com/Shokr/PythonScripts/tree/master/Cryptography)           |`Crypto`                          |
+|0014| [MISC](https://github.com/Shokr/PythonScripts/tree/master/MISC)                           |`Others`                          |
 
 
 
