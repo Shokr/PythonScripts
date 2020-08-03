@@ -44,8 +44,7 @@ class D(B, A):
 
 if __name__ == "__main__":
     dObj = D()
-    dObj.doThis(
-    )  # A method gets called because order for lookup is D,B,A,C this is shown by function mro
+    dObj.doThis()  # A method gets called because order for lookup is D,B,A,C this is shown by function mro
 
     print(D.mro())
 

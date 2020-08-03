@@ -101,8 +101,9 @@ class EgyptionNationalId(_ENID):
     @classmethod
     def parse_str(cls, national_id):
         if len(national_id) != 14 or national_id.isdigit() is False:
-            raise ValidationError("National id format not valid",
-                                  cls.fake_national_id_message)
+            raise ValidationError(
+                "National id format not valid", cls.fake_national_id_message
+            )
         birth_century = cls.__get_birth_century(cls, int(national_id[0]))
         date_of_birth = cls.__convert_birthdate(cls, national_id[0:7])
         birth_governorate = cls.__get_birth_governorate(cls, national_id[7:9])
@@ -134,8 +135,9 @@ class EgyptionNationalId(_ENID):
         birth_century = birth_century_code + 18
 
         if (birth_century < 19) and (birth_century > current_century):
-            raise ValidationError("birth century not valid",
-                                  self.fake_national_id_message)
+            raise ValidationError(
+                "birth century not valid", self.fake_national_id_message
+            )
         return birth_century
 
     def __get_birth_governorate(self, birth_governorate_coda):
@@ -148,8 +150,8 @@ class EgyptionNationalId(_ENID):
         try:
             return self.governorates[birth_governorate_coda]
         except:
-            raise ValidationError("birth governorate code not valid",
-                                  sys.exc_info()[0])
+            raise ValidationError(
+                "birth governorate code not valid", sys.exc_info()[0])
 
     def __get_gender(self, gender_code):
         """
@@ -160,8 +162,9 @@ class EgyptionNationalId(_ENID):
                 Gender
         """
         if gender_code < 0 and gender_code > 9:
-            raise ValidationError("gender code not valid",
-                                  self.fake_national_id_message)
+            raise ValidationError(
+                "gender code not valid", self.fake_national_id_message
+            )
         if gender_code % 2 == 0:
             return "أنثى"
         else:
@@ -181,10 +184,11 @@ class EgyptionNationalId(_ENID):
         birth_month = birthdate[3:5]
         birth_day = birthdate[5:]
         birth_full_year = (birth_century * 100) - 100 + int(birth_year)
-        birthdate_str = "{0}-{1}-{2}".format(birth_full_year, birth_month,
-                                             birth_day)
+        birthdate_str = "{0}-{1}-{2}".format(birth_full_year,
+                                             birth_month, birth_day)
         birthdate_date = datetime.strptime(birthdate_str, "%Y-%m-%d")
-        if birthdate_date > datetime.now(
-        ) and birthdate_date < datetime.strptime("1900-01-01", "%Y-%m-%d"):
+        if birthdate_date > datetime.now() and birthdate_date < datetime.strptime(
+            "1900-01-01", "%Y-%m-%d"
+        ):
             raise ValidationError("birthdate not valid", sys.exc_info()[0])
         return birthdate_str
