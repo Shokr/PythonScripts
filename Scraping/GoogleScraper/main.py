@@ -1,7 +1,7 @@
 import urllib
+
 import requests
 from bs4 import BeautifulSoup
-
 
 # desktop user-agent
 USER_AGENT = (
