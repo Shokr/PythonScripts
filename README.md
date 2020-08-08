@@ -30,7 +30,7 @@ Each script i create a directory with script and it's all info in , put it in fo
 |0012| [WEB](https://github.com/Shokr/PythonScripts/tree/master/WEB)                             |`web`                             
 |0013| [Cryptography](https://github.com/Shokr/PythonScripts/tree/master/Cryptography)           |`Crypto`                          
 |0014| [MISC](https://github.com/Shokr/PythonScripts/tree/master/MISC)                           |`Others`                          
-|0015| [BLOCKCHAIN](./BLOCKCHAIN)                           |`Blockchain`
+|0015| [BLOCKCHAIN](https://github.com/Shokr/PythonScripts/tree/master/BLOCKCHAIN)               |`Blockchain`
 
 
 ## Contributing
