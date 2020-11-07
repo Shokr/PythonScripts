@@ -7,4 +7,4 @@ text = "Ok Done"
 tts = gTTS(text)
 tts.save("hi.mp3")
 
-playsound('hi.mp3')
+playsound("hi.mp3")
