@@ -1,7 +1,7 @@
 from datetime import date
 
 from telegram import Update
-from telegram.ext import Updater, CommandHandler, CallbackContext
+from telegram.ext import CallbackContext, CommandHandler, Updater
 
 
 def hello(update: Update, context: CallbackContext) -> None:
