@@ -19,9 +19,8 @@ software_types = (".exe", ".pkg", ".dmg")
 
 def get_non_hidden_files_except_current_file(root_dir):
     return [
-        f
-        for f in os.listdir(root_dir)
-        if os.path.isfile(f) and not f.startswith(".") and not f.__eq__(__file__)
+        f for f in os.listdir(root_dir) if os.path.isfile(f)
+        and not f.startswith(".") and not f.__eq__(__file__)
     ]
 
 

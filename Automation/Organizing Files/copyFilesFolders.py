@@ -47,8 +47,7 @@ DESTINATION = "/home/shokr/XLAB/localize/"
 DESTINATION = os.path.join(DESTINATION, project)
 
 if os.path.exists(DESTINATION) and ctime(os.path.getmtime(SOURCE)) == ctime(
-    os.path.getmtime(DESTINATION)
-):
+        os.path.getmtime(DESTINATION)):
     print
     "Directory was copied"
 else:
