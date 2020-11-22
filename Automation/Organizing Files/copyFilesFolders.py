@@ -55,17 +55,19 @@ import shutil
 import os
 from time import ctime
 
-SOURCE = '/home/shokr/PycharmProjects/xapis'
-project = SOURCE.split('/')[-1]
+SOURCE = "/home/shokr/PycharmProjects/xapis"
+project = SOURCE.split("/")[-1]
 print
 project
 
-DESTINATION = '/home/shokr/XLAB/localize/'
+DESTINATION = "/home/shokr/XLAB/localize/"
 DESTINATION = os.path.join(DESTINATION, project)
 
-if os.path.exists(DESTINATION) and ctime(os.path.getmtime(SOURCE)) == ctime(os.path.getmtime(DESTINATION)):
+if os.path.exists(DESTINATION) and ctime(os.path.getmtime(SOURCE)) == ctime(
+    os.path.getmtime(DESTINATION)
+):
     print
-    'Directory was copied'
+    "Directory was copied"
 else:
 
     try:
