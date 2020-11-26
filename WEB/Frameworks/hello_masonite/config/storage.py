@@ -1,6 +1,5 @@
 """Storage Settings."""
 from masonite import env
-
 """Storage Driver
 The default driver you will like to use for storing uploads. You may add
 additional drivers as you need or pip install additional drivers.
@@ -9,13 +8,14 @@ Supported: 'disk', 's3', 'rackspace', 'googlecloud', 'azure'
 """
 
 DRIVER = env("STORAGE_DRIVER", "disk")
-
 """Storage Drivers
 Different drivers you can use for storing file uploads.
 """
 
 DRIVERS = {
-    "disk": {"location": "storage/uploads"},
+    "disk": {
+        "location": "storage/uploads"
+    },
     "s3": {
         "client": env("S3_CLIENT", "AxJz..."),
         "secret": env("S3_SECRET", "HkZj..."),
@@ -29,16 +29,19 @@ DRIVERS = {
         "location": "http://03c8...rackcdn.com/",
     },
     "azure": {
-        "name": env("AZURE_NAME", "masonite"),
-        "secret": env("AZURE_SECRET", "RykG8qsa4kTOddF=="),
-        "connection": env(
-            "AZURE_CONNECTION", "DefaultEndpointsProtocol=https;AccountName=..."
-        ),
-        "container": env("AZURE_CONTAINER", "masonite"),
-        "location": "https://masonite.blob.core.windows.net/container/",
+        "name":
+        env("AZURE_NAME", "masonite"),
+        "secret":
+        env("AZURE_SECRET", "RykG8qsa4kTOddF=="),
+        "connection":
+        env("AZURE_CONNECTION",
+            "DefaultEndpointsProtocol=https;AccountName=..."),
+        "container":
+        env("AZURE_CONTAINER", "masonite"),
+        "location":
+        "https://masonite.blob.core.windows.net/container/",
     },
 }
-
 """Static Files
 Put anywhere you keep your static assets in a key, value dictionary here
 The key will be the folder you put your assets in relative to the root

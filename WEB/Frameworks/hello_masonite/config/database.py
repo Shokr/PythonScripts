@@ -5,13 +5,11 @@ from masonite import env
 from masonite.environment import LoadEnvironment
 from orator import DatabaseManager
 from orator import Model
-
 """Load Environment Variables
 Loads in the environment variables when this page is imported.
 """
 
 LoadEnvironment()
-
 """Database Settings
 Set connection database settings here as a dictionary. Follow the
 format below to create additional connection settings.
@@ -56,8 +54,7 @@ logger = logging.getLogger("orator.connection.queries")
 logger.setLevel(logging.DEBUG)
 
 formatter = logging.Formatter(
-    "It took %(elapsed_time)sms to execute the query %(query)s"
-)
+    "It took %(elapsed_time)sms to execute the query %(query)s")
 
 handler = logging.StreamHandler()
 handler.setFormatter(formatter)

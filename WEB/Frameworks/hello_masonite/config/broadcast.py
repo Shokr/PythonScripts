@@ -1,6 +1,5 @@
 """Broadcast Settings."""
 from masonite import env
-
 """Broadcast Driver
 Realtime support is critical for any modern web application. Broadcast
 drivers allow you to push data from your server to all your clients
@@ -11,7 +10,6 @@ Supported: 'pusher', 'ably'
 """
 
 DRIVER = env("BROADCAST_DRIVER", "pusher")
-
 """Broadcast Drivers
 Below is a dictionary of all your driver configurations. Each key in the
 dictionary should be the name of a driver.
@@ -23,5 +21,7 @@ DRIVERS = {
         "client": env("PUSHER_CLIENT", "shS8dxx.."),
         "secret": env("PUSHER_SECRET", "HDGdjss.."),
     },
-    "ably": {"secret": env("ABLY_SECRET", "api:key")},
+    "ably": {
+        "secret": env("ABLY_SECRET", "api:key")
+    },
 }
