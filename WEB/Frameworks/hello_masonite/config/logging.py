@@ -1,5 +1,4 @@
 """ Logging Settings """
-
 import os
 
 from masonite import env

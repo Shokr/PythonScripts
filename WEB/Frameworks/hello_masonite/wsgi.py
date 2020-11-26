@@ -1,7 +1,7 @@
 """First Entry For The WSGI Server."""
-
 from bootstrap.start import app
-from config import application, providers
+from config import application
+from config import providers
 from masonite.app import App
 
 """Instantiate Container And Perform Important Bindings

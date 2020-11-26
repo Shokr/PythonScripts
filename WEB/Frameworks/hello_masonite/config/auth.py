@@ -1,5 +1,4 @@
 """Authentication Settings."""
-
 from app.User import User
 from masonite import env
 

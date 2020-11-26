@@ -1,5 +1,4 @@
 """Cache Settings."""
-
 from masonite import env
 
 """Cache Driver

@@ -1,5 +1,4 @@
 """Base Database Seeder Module."""
-
 from orator.seeds import Seeder
 
 from .user_table_seeder import UserTableSeeder

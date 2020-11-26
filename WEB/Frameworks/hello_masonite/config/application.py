@@ -1,5 +1,4 @@
 """Application Settings."""
-
 import os
 
 from masonite import env

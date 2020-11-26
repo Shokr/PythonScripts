@@ -1,5 +1,4 @@
 """Queue Settings."""
-
 from masonite import env
 
 """Queue Driver

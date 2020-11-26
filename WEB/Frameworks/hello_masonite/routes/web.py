@@ -1,6 +1,6 @@
 """Web Routes."""
-
-from masonite.routes import Get, Post
+from masonite.routes import Get
+from masonite.routes import Post
 
 ROUTES = [
     Get("/", "WelcomeController@show").name("welcome"),

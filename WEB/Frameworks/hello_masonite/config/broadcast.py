@@ -1,5 +1,4 @@
 """Broadcast Settings."""
-
 from masonite import env
 
 """Broadcast Driver

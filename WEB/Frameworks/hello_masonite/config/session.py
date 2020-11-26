@@ -1,5 +1,4 @@
 """Session Settings."""
-
 from masonite import env
 
 """Session Driver
