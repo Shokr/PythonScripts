@@ -7,7 +7,6 @@ from config.factories import factory
 
 
 class TestUser(TestCase):
-
     def setUp(self):
         """Anytime you override the setUp method you must call the setUp method
         on the parent class like below.

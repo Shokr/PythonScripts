@@ -17,4 +17,4 @@ class BlogController(Controller):
         self.request = request
 
     def show(self, view: View):
-        return view.render('blog')
+        return view.render("blog")

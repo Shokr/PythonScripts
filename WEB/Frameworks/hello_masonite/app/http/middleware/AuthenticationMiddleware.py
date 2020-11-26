@@ -17,7 +17,7 @@ class AuthenticationMiddleware:
     def before(self):
         """Run This Middleware Before The Route Executes."""
         if not self.request.user():
-            self.request.redirect_to('login')
+            self.request.redirect_to("login")
 
     def after(self):
         """Run This Middleware After The Route Executes."""

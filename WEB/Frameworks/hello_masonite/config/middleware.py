@@ -1,9 +1,12 @@
 """Middleware Configuration Settings."""
 
-from masonite.middleware import ResponseMiddleware, MaintenanceModeMiddleware, GuardMiddleware
+from masonite.middleware import (
+    ResponseMiddleware,
+    MaintenanceModeMiddleware,
+    GuardMiddleware,
+)
 
-from app.http.middleware.AuthenticationMiddleware import \
-    AuthenticationMiddleware
+from app.http.middleware.AuthenticationMiddleware import AuthenticationMiddleware
 from app.http.middleware.CsrfMiddleware import CsrfMiddleware
 from app.http.middleware.LoadUserMiddleware import LoadUserMiddleware
 from app.http.middleware.VerifyEmailMiddleware import VerifyEmailMiddleware
@@ -28,7 +31,7 @@ of middleware (middleware stacks).
 """
 
 ROUTE_MIDDLEWARE = {
-    'auth': AuthenticationMiddleware,
-    'verified': VerifyEmailMiddleware,
-    'guard': GuardMiddleware,
+    "auth": AuthenticationMiddleware,
+    "verified": VerifyEmailMiddleware,
+    "guard": GuardMiddleware,
 }

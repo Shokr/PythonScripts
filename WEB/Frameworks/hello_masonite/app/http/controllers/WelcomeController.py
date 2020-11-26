@@ -18,4 +18,4 @@ class WelcomeController(Controller):
         Returns:
             masonite.view.View -- The Masonite view class.
         """
-        return view.render('welcome')
+        return view.render("welcome")

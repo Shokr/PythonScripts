@@ -1,7 +1,7 @@
-'''
+"""
 Cyclone is a web server framework for Python, that implements the Tornado API as a Twisted protocol.
 http://cyclone.io/
-'''
+"""
 
 import cyclone.web
 import sys
@@ -16,9 +16,7 @@ class MainHandler(cyclone.web.RequestHandler):
 
 
 if __name__ == "__main__":
-    application = cyclone.web.Application([
-        (r"/", MainHandler)
-    ])
+    application = cyclone.web.Application([(r"/", MainHandler)])
 
     log.startLogging(sys.stdout)
     reactor.listenTCP(8888, application, interface="127.0.0.1")
