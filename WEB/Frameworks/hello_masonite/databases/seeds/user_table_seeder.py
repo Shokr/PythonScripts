@@ -7,10 +7,9 @@ You can run this seeder in order to generate users.
     - You can run the seeder by running: craft seed:run.
 """
 
-from orator.seeds import Seeder
-
 from app.User import User
 from config.factories import factory
+from orator.seeds import Seeder
 
 
 class UserTableSeeder(Seeder):
