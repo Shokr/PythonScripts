@@ -1,8 +1,7 @@
 """A BlogController Module."""
-
+from masonite.controllers import Controller
 from masonite.request import Request
 from masonite.view import View
-from masonite.controllers import Controller
 
 
 class BlogController(Controller):

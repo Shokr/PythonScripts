@@ -1,5 +1,4 @@
 """Queue Settings."""
-
 from masonite import env
 
 """Queue Driver
@@ -10,7 +9,6 @@ Supported: 'async', 'amqp'
 """
 
 DRIVER = env("QUEUE_DRIVER", "async")
-
 """Queue Drivers
 Put any configuration settings for your drivers in this configuration setting.
 """

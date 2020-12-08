@@ -1,5 +1,4 @@
 """Verify Email Middleware."""
-
 from masonite.request import Request
 
 

@@ -1,5 +1,4 @@
 """User Model."""
-
 from config.database import Model
 
 

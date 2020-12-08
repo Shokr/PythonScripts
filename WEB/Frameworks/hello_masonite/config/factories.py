@@ -1,5 +1,5 @@
-from orator.orm import Factory
 from app.User import User
+from orator.orm import Factory
 
 factory = Factory()
 

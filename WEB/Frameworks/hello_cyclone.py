@@ -2,10 +2,9 @@
 Cyclone is a web server framework for Python, that implements the Tornado API as a Twisted protocol.
 http://cyclone.io/
 """
-
-import cyclone.web
 import sys
 
+import cyclone.web
 from twisted.internet import reactor
 from twisted.python import log
 

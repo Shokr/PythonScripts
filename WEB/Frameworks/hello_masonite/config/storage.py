@@ -1,5 +1,4 @@
 """Storage Settings."""
-
 from masonite import env
 
 """Storage Driver
@@ -10,7 +9,6 @@ Supported: 'disk', 's3', 'rackspace', 'googlecloud', 'azure'
 """
 
 DRIVER = env("STORAGE_DRIVER", "disk")
-
 """Storage Drivers
 Different drivers you can use for storing file uploads.
 """
@@ -39,7 +37,6 @@ DRIVERS = {
         "location": "https://masonite.blob.core.windows.net/container/",
     },
 }
-
 """Static Files
 Put anywhere you keep your static assets in a key, value dictionary here
 The key will be the folder you put your assets in relative to the root

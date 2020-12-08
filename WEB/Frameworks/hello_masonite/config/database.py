@@ -1,17 +1,16 @@
 """Database Settings."""
-
 import logging
 
 from masonite import env
 from masonite.environment import LoadEnvironment
-from orator import DatabaseManager, Model
+from orator import DatabaseManager
+from orator import Model
 
 """Load Environment Variables
 Loads in the environment variables when this page is imported.
 """
 
 LoadEnvironment()
-
 """Database Settings
 Set connection database settings here as a dictionary. Follow the
 format below to create additional connection settings.

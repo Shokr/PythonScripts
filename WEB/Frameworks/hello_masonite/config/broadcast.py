@@ -1,5 +1,4 @@
 """Broadcast Settings."""
-
 from masonite import env
 
 """Broadcast Driver
@@ -12,7 +11,6 @@ Supported: 'pusher', 'ably'
 """
 
 DRIVER = env("BROADCAST_DRIVER", "pusher")
-
 """Broadcast Drivers
 Below is a dictionary of all your driver configurations. Each key in the
 dictionary should be the name of a driver.

@@ -1,5 +1,4 @@
 """ Logging Settings """
-
 import os
 
 from masonite import env
@@ -11,7 +10,6 @@ any time.
 """
 
 DEFAULT = env("LOG_CHANNEL", "single")
-
 """Channels
 Channels dictate how logging drivers will be initialized.
 
