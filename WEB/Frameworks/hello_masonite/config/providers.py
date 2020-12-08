@@ -1,19 +1,11 @@
 """Providers Configuration File."""
 from masonite.logging.providers import LoggingProvider
-from masonite.providers import AppProvider
-from masonite.providers import AuthenticationProvider
-from masonite.providers import BroadcastProvider
-from masonite.providers import CacheProvider
-from masonite.providers import CsrfProvider
-from masonite.providers import HelpersProvider
-from masonite.providers import MailProvider
-from masonite.providers import QueueProvider
-from masonite.providers import RouteProvider
-from masonite.providers import SessionProvider
-from masonite.providers import StatusCodeProvider
-from masonite.providers import UploadProvider
-from masonite.providers import ViewProvider
-from masonite.providers import WhitenoiseProvider
+from masonite.providers import (AppProvider, AuthenticationProvider,
+                                BroadcastProvider, CacheProvider, CsrfProvider,
+                                HelpersProvider, MailProvider, QueueProvider,
+                                RouteProvider, SessionProvider,
+                                StatusCodeProvider, UploadProvider,
+                                ViewProvider, WhitenoiseProvider)
 from masonite.validation.providers import ValidationProvider
 from masonite.validation.providers.ValidationProvider import ValidationProvider
 
