@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # Author: ablil
 # Description: keylogger with the option to send email
-
 import os
 import smtplib
 import tempfile
