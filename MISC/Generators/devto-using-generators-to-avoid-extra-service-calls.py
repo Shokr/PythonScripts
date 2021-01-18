@@ -1,15 +1,15 @@
 def has_facebook_account(user_email):
-    print('calling Facebook service')
+    print("calling Facebook service")
     return False
 
 
 def has_github_account(user_email):
-    print('calling Github service')
+    print("calling Github service")
     return True
 
 
 def has_twitter_account(user_email):
-    print('calling Twitter service')
+    print("calling Twitter service")
     return True
 
 
@@ -23,6 +23,6 @@ def has_social_account(user_email):
 
 
 if __name__ == "__main__":
-    print('Checking social media apps...')
-    has_social_account('fake@email.com')
-    print('Done!')
+    print("Checking social media apps...")
+    has_social_account("fake@email.com")
+    print("Done!")
