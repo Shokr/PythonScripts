@@ -1,7 +1,6 @@
 """
 This is a quick script to extract background from image, it is based on lowpass filter
 """
-
 from sys import argv
 
 from PIL import Image
@@ -19,7 +18,9 @@ kFilteringFactor = factor
 
 
 def filter(r, g, b, prevR, prevG, prevB):
-    accelFunc = lambda c, p: (c * kFilteringFactor) + (p * (1 - kFilteringFactor))
+    def accelFunc(c, p):
+        return (c * kFilteringFactor) + (p * (1 - kFilteringFactor))
+
     accelR = accelFunc(r, prevR)
     accelG = accelFunc(g, prevG)
     accelB = accelFunc(b, prevB)
@@ -30,7 +31,7 @@ def process_image(image_name, out):
     im = Image.open(image_name)
     pix = im.load()
 
-    outim = Image.new('RGB', im.size)
+    outim = Image.new("RGB", im.size)
     outpix = outim.load()
 
     for y in range(1, im.size[1]):
