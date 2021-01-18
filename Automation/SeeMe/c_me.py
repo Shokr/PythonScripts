@@ -2,11 +2,11 @@
 The script takes grabs the title of the active window and print out the amount of time spent on the output file,
 after that you can use this data to see how much time you spend on each application.
 """
-
-from AppKit import NSWorkspace
+import sys
 from time import sleep
 from time import time
-import sys
+
+from AppKit import NSWorkspace
 
 if len(sys.argv) != 2:
     sys.exit("Usage: SCRIPT output_file.txt")

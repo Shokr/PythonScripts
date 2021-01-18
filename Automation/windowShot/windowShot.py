@@ -1,15 +1,13 @@
 """
 Take a screenshot for a window, query by window title (windowShot.py 'Mail') output to tmp directory.
 """
-
 import os
 from sys import argv
-from Quartz import (
-    CGWindowListCopyWindowInfo,
-    kCGWindowListExcludeDesktopElements,
-    kCGNullWindowID,
-    kCGWindowListOptionOnScreenOnly,
-)
+
+from Quartz import CGWindowListCopyWindowInfo
+from Quartz import kCGNullWindowID
+from Quartz import kCGWindowListExcludeDesktopElements
+from Quartz import kCGWindowListOptionOnScreenOnly
 
 windowList = CGWindowListCopyWindowInfo(
     kCGWindowListOptionOnScreenOnly | kCGWindowListExcludeDesktopElements,

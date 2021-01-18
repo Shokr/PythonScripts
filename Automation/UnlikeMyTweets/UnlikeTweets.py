@@ -2,8 +2,8 @@
 Unlike my Twitter likes.
 
 """
-
-from json import dumps, loads
+from json import dumps
+from json import loads
 from sys import argv
 
 import twitter
