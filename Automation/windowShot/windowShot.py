@@ -16,8 +16,13 @@ windowList = CGWindowListCopyWindowInfo(
 systemWindows = ["SystemUIServer", "Window Server", "Spotlight"]
 searchname = argv[1].lower()
 for i in windowList:
-    if (searchname in i["kCGWindowOwnerName"].lower()
-            and i["kCGWindowOwnerName"] not in systemWindows):
+    if (
+        searchname in i["kCGWindowOwnerName"].lower()
+        and i["kCGWindowOwnerName"] not in systemWindows
+    ):
         print(i["kCGWindowNumber"], i["kCGWindowOwnerName"])
-        os.system('screencapture -l{0} "tmp/{0}{1}.png"'.format(
-            i["kCGWindowNumber"], i["kCGWindowOwnerName"]))
+        os.system(
+            'screencapture -l{0} "tmp/{0}{1}.png"'.format(
+                i["kCGWindowNumber"], i["kCGWindowOwnerName"]
+            )
+        )
