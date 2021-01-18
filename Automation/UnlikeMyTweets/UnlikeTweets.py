@@ -9,14 +9,13 @@ from sys import argv
 import twitter
 
 ###
-###     Do not forget to put Authentication information
-###     To use, first save your likes to file (res.json and ids.json) "python UnlikeMyTweets.py g"
-###             Second unlike tweets (it reads ids.json) "python UnlikeMyTweets.py r"
+# Do not forget to put Authentication information
+# To use, first save your likes to file (res.json and ids.json) "python UnlikeMyTweets.py g"
+# Second unlike tweets (it reads ids.json) "python UnlikeMyTweets.py r"
 ###
-api = twitter.Api(consumer_key="",
-                  consumer_secret="",
-                  access_token_key="",
-                  access_token_secret="")
+api = twitter.Api(
+    consumer_key="", consumer_secret="", access_token_key="", access_token_secret=""
+)
 
 
 def getAllLikes():
@@ -26,7 +25,8 @@ def getAllLikes():
     all_ids = []
     while doNotStop:
         if max_id > 0:
-            result = api.GetFavorites(count=200, max_id=max_id, return_json=True)
+            result = api.GetFavorites(
+                count=200, max_id=max_id, return_json=True)
         else:
             result = api.GetFavorites(count=200, return_json=True)
         if len(result) == 0:

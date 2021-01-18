@@ -15,7 +15,9 @@ file = open(sys.argv[1], "a")
 lastname = ""
 t = time()
 while True:
-    activeAppName = NSWorkspace.sharedWorkspace().activeApplication()['NSApplicationName']
+    activeAppName = NSWorkspace.sharedWorkspace().activeApplication()[
+        "NSApplicationName"
+    ]
     if activeAppName != lastname:
         if lastname:
             file.write("\n" + "% 10d" % (int(time() - t),) + "\t" + lastname)
