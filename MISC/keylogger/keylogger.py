@@ -35,7 +35,8 @@ class GmailSender:
                 name = os.path.basename(f)
                 part = MIMEApplication(buff, name)
             part["Content-Disposition"] = 'attachment; filename="{}"'.format(
-                os.path.basename(f))
+                os.path.basename(f)
+            )
             msg.attach(part)
 
         # send
