@@ -16,6 +16,7 @@ from masonite.providers import ViewProvider
 from masonite.providers import WhitenoiseProvider
 from masonite.validation.providers import ValidationProvider
 from masonite.validation.providers.ValidationProvider import ValidationProvider
+
 """Providers List
 Providers are a simple way to remove or add functionality for Masonite
 The providers in this list are either ran on server start or when a
