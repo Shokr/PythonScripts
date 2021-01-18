@@ -1,7 +1,6 @@
 """
 This is a quick script to extract background from image, it is based on lowpass filter
 """
-
 from sys import argv
 
 from PIL import Image
