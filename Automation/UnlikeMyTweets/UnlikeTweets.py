@@ -25,8 +25,7 @@ def getAllLikes():
     all_ids = []
     while doNotStop:
         if max_id > 0:
-            result = api.GetFavorites(
-                count=200, max_id=max_id, return_json=True)
+            result = api.GetFavorites(count=200, max_id=max_id, return_json=True)
         else:
             result = api.GetFavorites(count=200, return_json=True)
         if len(result) == 0:
