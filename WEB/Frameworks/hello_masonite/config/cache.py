@@ -1,6 +1,5 @@
 """Cache Settings."""
 from masonite import env
-
 """Cache Driver
 Caching is a great way to gain an instant speed boost to your application.
 Very often templates will not change and you can utilize caching to the
