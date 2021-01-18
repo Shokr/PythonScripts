@@ -1,13 +1,10 @@
 """Example Database Testcase."""
-
-from masonite.testing import TestCase
-
 from app.User import User
 from config.factories import factory
+from masonite.testing import TestCase
 
 
 class TestUser(TestCase):
-
     def setUp(self):
         """Anytime you override the setUp method you must call the setUp method
         on the parent class like below.

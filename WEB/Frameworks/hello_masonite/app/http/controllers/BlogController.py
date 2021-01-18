@@ -1,8 +1,7 @@
 """A BlogController Module."""
-
+from masonite.controllers import Controller
 from masonite.request import Request
 from masonite.view import View
-from masonite.controllers import Controller
 
 
 class BlogController(Controller):
@@ -17,4 +16,4 @@ class BlogController(Controller):
         self.request = request
 
     def show(self, view: View):
-        return view.render('blog')
+        return view.render("blog")
