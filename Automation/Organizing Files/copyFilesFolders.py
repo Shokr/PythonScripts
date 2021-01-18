@@ -1,9 +1,6 @@
 # # Build Sources list form nuke nodes
 # nodes = ['/home/shokr/PycharmProjects/soso/x####.txt','/home/shokr/mix/z.txt','/home/shokr/PycharmProjects/soso/y####.txt']
-
-
 # SOURCES = []
-
 # for node in nodes:
 #     if '####' in node:
 #         frames = 2
@@ -12,35 +9,23 @@
 #             zx = node.replace('####',  str(format(i, "0>4")))
 #             SOURCES.append(zx)
 #             i += 1
-
 #     else:
 #         SOURCES.append(node)
-
 # print SOURCES
-
-
 # # Function to make copy file with metadata from sources to local.
-
 # import shutil
 # from os import path
-
 # import time
-
 # DESTINATION = '/home/shokr/XLAB/localize'
-
 # for SOURCE in SOURCES:
-
 #     try:
 #         filePath, fileName = path.split(SOURCE)
 #         # print filepath, file
 #         DST = path.join(DESTINATION, fileName)
-
 #         SOURCE_Modification_Time = time.ctime(path.getmtime(SOURCE))
 #         DST_Modification_Time = time.ctime(path.getmtime(DST))
 #     except:
 #         print 'ERROR'
-
-
 #     if path.exists(DST) and SOURCE_Modification_Time == DST_Modification_Time:
 #         print 'Already COPIED'
 #     else:
@@ -49,10 +34,8 @@
 #             print 'COPIED'
 #         except:
 #             print 'File Not Found'
-
-
-import shutil
 import os
+import shutil
 from time import ctime
 
 SOURCE = "/home/shokr/PycharmProjects/xapis"
