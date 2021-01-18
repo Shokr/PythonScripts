@@ -4,10 +4,9 @@ Take a screenshot for a window, query by window title (windowShot.py 'Mail') out
 import os
 from sys import argv
 
-from Quartz import CGWindowListCopyWindowInfo
-from Quartz import kCGNullWindowID
-from Quartz import kCGWindowListExcludeDesktopElements
-from Quartz import kCGWindowListOptionOnScreenOnly
+from Quartz import (CGWindowListCopyWindowInfo, kCGNullWindowID,
+                    kCGWindowListExcludeDesktopElements,
+                    kCGWindowListOptionOnScreenOnly)
 
 windowList = CGWindowListCopyWindowInfo(
     kCGWindowListOptionOnScreenOnly | kCGWindowListExcludeDesktopElements,
