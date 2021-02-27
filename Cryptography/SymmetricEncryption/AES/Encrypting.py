@@ -3,7 +3,6 @@
 Our AES Key needs to be either 16, 24 or 32 bytes long and our Initialization Vector needs to be 16 Bytes long.
  That will be generated using the random and string modules.
 """
-
 import base64
 import random
 import string
