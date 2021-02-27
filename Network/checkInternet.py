@@ -8,7 +8,7 @@ def is_internet():
     :return:
     """
     try:
-        urlopen('https://www.google.com', timeout=1)
+        urlopen("https://www.google.com", timeout=1)
         return True
     except urllib.error.URLError as Error:
         print(Error)
