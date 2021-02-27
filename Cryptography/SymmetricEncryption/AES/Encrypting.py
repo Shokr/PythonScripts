@@ -11,13 +11,11 @@ import string
 from Crypto.Cipher import AES
 
 key = "".join(
-    random.choice(string.ascii_uppercase +
-                  string.ascii_lowercase + string.digits)
+    random.choice(string.ascii_uppercase + string.ascii_lowercase + string.digits)
     for x in range(32)
 )
 iv = "".join(
-    random.choice(string.ascii_uppercase +
-                  string.ascii_lowercase + string.digits)
+    random.choice(string.ascii_uppercase + string.ascii_lowercase + string.digits)
     for x in range(16)
 )
 
