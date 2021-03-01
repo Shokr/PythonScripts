@@ -1,5 +1,6 @@
-from Crypto.Cipher import AES
 import base64
+
+from Crypto.Cipher import AES
 
 key = "3BvB5mXhqbMXSmuk35TfuF5dciAKm24X"
 iv = "ROdfH3KsFNEy0gb9"
