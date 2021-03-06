@@ -16,14 +16,12 @@ def process_response(resp):
     return resp
 
 
-pipeline = paipa.Pipeline(
-    [
-        (paipa.funcstep(download_url), 3),
-        # Only one thread because that way the console printout is
-        # nicely readable. Try to tune this and see what it does.
-        (paipa.funcstep(process_response), 1),
-    ]
-)
+pipeline = paipa.Pipeline([
+    (paipa.funcstep(download_url), 3),
+    # Only one thread because that way the console printout is
+    # nicely readable. Try to tune this and see what it does.
+    (paipa.funcstep(process_response), 1),
+])
 pipeline.put("http://example.com/2")
 pipeline.put("http://example.com/4")
 pipeline.put("http://example.com/6")
