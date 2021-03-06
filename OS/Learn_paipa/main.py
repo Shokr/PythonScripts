@@ -32,5 +32,4 @@ pipeline.run()
 # Observe that the order in which the URLs are printed may vary due to
 # runtime differences in the requests.
 
-
 # https://github.com/stylight/python-paipa/blob/master/doc/introduction.rst
