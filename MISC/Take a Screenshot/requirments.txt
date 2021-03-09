@@ -1,0 +1,3 @@
+pyautogui
+
+# sudo apt-get install scrot
