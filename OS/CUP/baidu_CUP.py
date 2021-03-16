@@ -1,11 +1,10 @@
 # Examples:
 # 1. Get system info
-from cup import exfile
-from cup.net import route
 import json
 
 import cup
-
+from cup import exfile
+from cup.net import route
 # count cpu usage in interval, by default 60 seconds
 from cup.res import linux
 
