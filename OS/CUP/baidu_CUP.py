@@ -23,7 +23,6 @@ print(cup.res.linux.boot_time())
 
 print(cup.res.linux.get_disk_info())
 
-
 ri = route.RouteInfo()
 print(json.dumps(ri.get_routes(), indent=1))
 
