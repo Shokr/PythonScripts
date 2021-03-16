@@ -8,10 +8,10 @@ import time
 
 time.sleep(5)
 
-text = 'I Love You'
+text = "I Love You"
 
 while True:
     pyautogui.typewrite(text)
 
     time.sleep(1)
-    pyautogui.press('enter')
+    pyautogui.press("enter")
