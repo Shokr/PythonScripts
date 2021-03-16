@@ -1,8 +1,11 @@
 # Examples:
 # 1. Get system info
+from cup import exfile
+from cup.net import route
 import json
 
 import cup
+
 # count cpu usage in interval, by default 60 seconds
 from cup.res import linux
 
@@ -10,7 +13,6 @@ cpuinfo = linux.get_cpu_usage(intvl_in_sec=60)
 print(cpuinfo.usr)
 
 # total, available, percent, used, free, active, inactive, buffers, cached
-from cup.res import linux
 
 meminfo = linux.get_meminfo()
 print(meminfo.total)
@@ -22,14 +24,13 @@ print(cup.res.linux.boot_time())
 
 print(cup.res.linux.get_disk_info())
 
-from cup.net import route
+
 ri = route.RouteInfo()
 print(json.dumps(ri.get_routes(), indent=1))
 
 # Lock file in order to prevent others from trying to lock it again
-from cup import exfile
 
-filelock = exfile.LockFile('requirments.txt', locktype=2)
+filelock = exfile.LockFile("requirments.txt", locktype=2)
 # xxxx do something
 filelock.lock(blocking=True)
 # xxxxx do something else
