@@ -5,8 +5,8 @@ import json
 import cup
 from cup import exfile
 from cup.net import route
-# count cpu usage in interval, by default 60 seconds
 from cup.res import linux
+# count cpu usage in interval, by default 60 seconds
 
 cpuinfo = linux.get_cpu_usage(intvl_in_sec=60)
 print(cpuinfo.usr)
