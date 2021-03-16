@@ -1,13 +1,13 @@
 # Examples:
 # 1. Get system info
-from cup import exfile
-from cup.net import route
 import json
 
 import cup
+from cup import exfile
+from cup.net import route
+from cup.res import linux
 
 # count cpu usage in interval, by default 60 seconds
-from cup.res import linux
 
 cpuinfo = linux.get_cpu_usage(intvl_in_sec=60)
 print(cpuinfo.usr)
@@ -23,7 +23,6 @@ print(meminfo.available)
 print(cup.res.linux.boot_time())
 
 print(cup.res.linux.get_disk_info())
-
 
 ri = route.RouteInfo()
 print(json.dumps(ri.get_routes(), indent=1))
