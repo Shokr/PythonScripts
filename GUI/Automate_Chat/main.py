@@ -3,8 +3,9 @@ Automate any Chat-Messenger with Python
 Easily automate Whatsapp | Facebook | Instagram Chat-Messenger with Python using PyAutoGUI
 """
 
-import pyautogui
 import time
+
+import pyautogui
 
 time.sleep(5)
 
