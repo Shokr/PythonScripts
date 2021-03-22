@@ -41,6 +41,9 @@ def compare_director(directory1, directory2):
 
 
 def get_dir_info(directory):
+    """
+    Get all meta-data about directory.
+    """
     DIR_INFO = {"directory": "%s" % os.getcwd(),
                 "directory_size": "%s" % os.path.getsize(directory),
                 "directory_permissions": "%s" % oct(os.stat(directory).st_mode),
@@ -53,18 +56,26 @@ def get_dir_info(directory):
 
 
 def get_directory_files_form_oldest_to_newest(directory):
+    """
+    Get Ordered list of directory files.
+    """
     os.chdir(directory)
     files = sorted(os.listdir(os.getcwd()), key=os.path.getmtime)
     return files
 
 
 def get_latest_file(directory):
+    """
+    Get lastest file in directory.
+    """
     return max(get_tree(directory))
 
 
 def look_in_directory(directory, file_to_find):
-    """Loop through the current directory for the file, if the current item
-       is a directory, it recusively looks through that folder"""
+    """
+    Loop through the current directory for the file, if the current item
+       is a directory, it recusively looks through that folder
+    """
 
     # Loop over all the items in the directory
     for f in os.listdir(directory):
@@ -86,11 +97,17 @@ def look_in_directory(directory, file_to_find):
 
 
 def open_in_browser(path):
+    """
+    Open directory in web browser.
+    """
     import webbrowser
     return webbrowser.open(path)
 
 
 def get_full_path(path):
+    """
+    Get file full path.
+    """
     if path.isfile:
         return os.path.abspath(path)
     else:
