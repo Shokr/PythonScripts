@@ -6,7 +6,7 @@ from pprint import pprint
 
 
 def get_user_path():
-    return os.path.expanduser('~')
+    return os.path.expanduser("~")
 
 
 def get_current_path():
@@ -44,14 +44,16 @@ def get_dir_info(directory):
     """
     Get all meta-data about directory.
     """
-    DIR_INFO = {"directory": "%s" % os.getcwd(),
-                "directory_size": "%s" % os.path.getsize(directory),
-                "directory_permissions": "%s" % oct(os.stat(directory).st_mode),
-                "directory_owner": "%s" % oct(os.stat(directory).st_uid),
-                "directory_device": "%s" % oct(os.stat(directory).st_dev),
-                "created_at": "%s" % time.ctime(os.path.getctime(directory)),
-                "last_modified": "%s" % time.ctime(os.path.getmtime(directory)),
-                "last_accessed": "%s" % time.ctime(os.path.getatime(directory))}
+    DIR_INFO = {
+        "directory": "%s" % os.getcwd(),
+        "directory_size": "%s" % os.path.getsize(directory),
+        "directory_permissions": "%s" % oct(os.stat(directory).st_mode),
+        "directory_owner": "%s" % oct(os.stat(directory).st_uid),
+        "directory_device": "%s" % oct(os.stat(directory).st_dev),
+        "created_at": "%s" % time.ctime(os.path.getctime(directory)),
+        "last_modified": "%s" % time.ctime(os.path.getmtime(directory)),
+        "last_accessed": "%s" % time.ctime(os.path.getatime(directory)),
+    }
     return DIR_INFO
 
 
@@ -101,6 +103,7 @@ def open_in_browser(path):
     Open directory in web browser.
     """
     import webbrowser
+
     return webbrowser.open(path)
 
 
@@ -114,7 +117,7 @@ def get_full_path(path):
         return path
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print("Hello to Folder Middleware :) ")
 
     # # we will look for the file recursively
