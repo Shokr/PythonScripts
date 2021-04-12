@@ -11,6 +11,7 @@ from operator import itemgetter
 from os import path
 
 import numpy as np
+
 # Taking Two Integers as input
 
 a, b = map(int, input().split())
@@ -70,10 +71,8 @@ print(check_anagram("ginger", "danger"))  # False
 ###########################################################################
 # Merging Two Dictionaries
 
-basic_information = {
-    "name": ["karl", "Lary"],
-    "mobile": ["0134567894", "0123456789"]
-}
+basic_information = {"name": ["karl", "Lary"],
+                     "mobile": ["0134567894", "0123456789"]}
 academic_information = {"grade": ["A", "B"]}
 details = dict()  # Combines Dict
 
@@ -123,7 +122,7 @@ print(squares)
 
 # METHOD 2
 n = 6
-squares = [i**2 for i in range(1, n + 1)]
+squares = [i ** 2 for i in range(1, n + 1)]
 print(squares)
 """Output
   [1, 4, 9, 16, 25]
@@ -208,18 +207,9 @@ list1 = np.add(maths, physics)
 # Sorting a List of Dictionaries
 
 dict1 = [
-    {
-        "Name": "Karl",
-        "Age": 25
-    },
-    {
-        "Name": "Lary",
-        "Age": 39
-    },
-    {
-        "Name": "Nina",
-        "Age": 35
-    },
+    {"Name": "Karl", "Age": 25},
+    {"Name": "Lary", "Age": 39},
+    {"Name": "Nina", "Age": 35},
 ]
 
 # Using sort()
