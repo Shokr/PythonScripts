@@ -1,17 +1,18 @@
 ###########################################################################
 # Taking Space Separated Multiple Inputs
 
-# Taking Two Integers as input
-import timeit
-import time
 import datetime
-from operator import itemgetter
-import numpy as np
 import operator
-from itertools import repeat
-from os import path
 import os.path
 import sys
+import time
+# Taking Two Integers as input
+import timeit
+from itertools import repeat
+from operator import itemgetter
+from os import path
+
+import numpy as np
 
 a, b = map(int, input().split())
 print("a:", a)
