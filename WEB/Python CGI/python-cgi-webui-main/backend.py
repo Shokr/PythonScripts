@@ -89,8 +89,7 @@ elif a == "aws-2":
     print(output)
 elif a == "aws-3":
     x = data.getvalue("x")
-    output = sp.getoutput(
-        "aws ec2 create-security-group --group-name {}".format(x))
+    output = sp.getoutput("aws ec2 create-security-group --group-name {}".format(x))
     print(output)
 elif a == "aws-4":
     x = data.getvalue("x")
@@ -222,8 +221,7 @@ elif a == "hadoop-9":
 elif a == "hadoop-10":
     x = data.getvalue("x")
     y = data.getvalue("y")
-    output = sp.getoutput(
-        "hadoop fs -Ddfs.block.size={}  -put {} /".format(x, y))
+    output = sp.getoutput("hadoop fs -Ddfs.block.size={}  -put {} /".format(x, y))
     print(output)
 elif a == "hadoop-11":
     x = data.getvalue("x")
