@@ -1,7 +1,6 @@
 import os.path
-from collections import Counter
 import time
-
+from collections import Counter
 from pprint import pprint
 
 
