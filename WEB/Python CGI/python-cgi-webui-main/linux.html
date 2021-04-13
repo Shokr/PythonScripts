@@ -1,0 +1,223 @@
+<html>
+<head>
+<style>
+:root{
+  /*  Sea Green */
+  /*--left-color: #de6262;*/
+  --left-color: #d3d3d3 ;
+  /*  Light Blue  */
+  --right-color:  #02aab0;
+}
+body, html{
+  text-align: center;
+  align-content: center;
+  font-family: 'Helvetica Neue', sans-serif;
+  letter-spacing: 1.5px;
+  background-image: linear-gradient(to right, var(--left-color), var(--right-color));
+  color: black;
+}
+.container{
+  width: 25%;
+  height: 70%;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 2px 10px 40px rgba(22,20,19,0.4);
+  padding: 10 10;
+  margin: 50px;
+  float:left;
+}
+/*h1
+{
+  color: var(--left-color);
+}*/
+input[type=text], select {
+  width: 75%;
+  padding: 12px 18px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #dcdcdc;
+  border-radius: 8px;
+  outline: none;
+}
+input[type=text]:focus {
+  border: 2px solid var(--left-color);
+}
+input[type=submit] {
+  width: 45%;
+  background-color: blue;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 10px;
+  margin: 8px 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+input[type=submit]:hover {
+  background-color: var(--right-color);
+}
+textarea{
+  width: 70%;
+  height: 20%;
+}
+hr{
+border: 1px solid var(--left-color);
+background-color: var(--left-color);
+}
+h1{
+text-shadow: 2px 2px 2px rgba(22,20,19,0.4);
+}
+</style>
+</head>
+<body>
+<div class="linux" id="linux">
+
+ <h1>(a). Linux</h1>
+                        <h1>01. Create a directory</h1>
+                        <form action="http://172.18.233.252/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number(as Linux-1)</label><br>
+                        <input type="text" name="a" value="linux-1"><br><br>
+                        <label for="option">Name of Directory</label><br>
+                        <input type="text" name="x"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>02. files in current directory</h1>
+                        <form action="http://172.18.233.252/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a" value="linux-2"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>03. Create an empty file</h1>
+                        <form action="http://172.24.16.5/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <label for="option">Enter Name of file</label><br>
+                        <input type="text" name="x"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>04. Create a file and open for editing</h1>
+                        <form action="http://172.24.16.5/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <label for="option">Enter Name of file</label><br>
+                        <input type="text" name="x"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>05. Add a new user </h1>
+                        <form action="http://172.24.16.5/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <label for="option">Enter Name of User</label><br>
+                        <input type="text" name="x"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>06. Set/change password </h1>
+                        <form action="http://172.24.16.5/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <label for="option">Enter password</label><br>
+                        <input type="text" name="x"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>07. Show current RAM usage </h1>
+                        <form action="http://172.24.16.5/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>08. Show the disk usage </h1>
+                        <form action="http://172.24.16.5/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>09. Check if package is present</h1>
+                        <form action="http://172.24.16.5/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <label for="option">Enter Name of Package</label><br>
+                        <input type="text" name="x"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>10. Remove a package</h1>
+                        <form action="http://172.24.16.5/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <label for="option">Enter Name of Package</label><br>
+                        <input type="text" name="x"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>11. Lists the network configuration</h1>
+                        <form action="http://172.24.16.5/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>12. Checks the java running services</h1>
+                        <form action="http://172.24.16.5/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>13. List the CPU info</h1>
+                        <form action="http://172.24.16.5/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>14. Show currenty running processes</h1>
+                        <form action="http://172.24.16.5/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>15. Show running time of device</h1>
+                        <form action="http://172.24.16.5/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>16. Clear the cache</h1>
+                        <form action="http://172.24.16.5/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>17. Check which package provide the command</h1>
+                        <form action="http://172.24.16.5/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <label for="option">Enter Command Name</label><br>
+                        <input type="text" name="x"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>18. Checks the connectivity to IP</h1>
+                        <form action="http://172.24.16.5/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <label for="option">Enter IP</label><br>
+                        <input type="text" name="x"><br><br>
+                        <input type="submit" name="null">
+                        </form></br></br></br></br></br></br></br></br></br>
+      <h1>19. Create a user for running a specific command</h1>
+                        <form action="http://172.24.16.5/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <label for="option">Enter Name of user</label><br>
+                        <input type="text" name="x"><br><br>
+                        <label for="option">Enter the commmand to be run</label><br>
+                        <input type="text" name="y"><br><br>
+                        <input type="submit" name="null">
+                         </form></br></br></br></br></br></br></br></br></br>
+            <h1>20. Show Date </h1>
+                        <form action="http://172.18.233.252/cgi-bin/backend.py" method='POST' target='_blank'>
+                        <label for="option">Enter the option number</label><br>
+                        <input type="text" name="a"><br><br>
+                        <input type="submit" name="null">
+                         </form>
+
+                </div>
+            </body>
+                </html>
