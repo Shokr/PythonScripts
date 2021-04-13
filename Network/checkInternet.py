@@ -15,6 +15,11 @@ def is_internet():
         return False
 
 
+# ip2location.turing.com
+
+# http://checkip.amazonaws.com/
+
+
 if is_internet():
     print("Internet is active")
 else:

@@ -2,8 +2,15 @@ import os.path
 from collections import Counter
 import time
 
-from pprint import pprint
 
+def convert_path(path):
+    """
+    Convert Path to windows path.
+    """
+    print(path)
+    convert_path = path.replace('\\', '/')
+    convert_path = '/' + convert_path
+    return convert_path
 
 def get_user_path():
     return os.path.expanduser('~')
@@ -45,9 +52,9 @@ def get_dir_info(directory):
     Get all meta-data about directory.
     """
     DIR_INFO = {"directory": "%s" % os.getcwd(),
-                "directory_size": "%s" % os.path.getsize(directory),
-                "directory_permissions": "%s" % oct(os.stat(directory).st_mode),
-                "directory_owner": "%s" % oct(os.stat(directory).st_uid),
+                # "directory_size": "%s" % os.path.getsize(directory),
+                # "directory_permissions": "%s" % oct(os.stat(directory).st_mode),
+                # "directory_owner": "%s" % oct(os.stat(directory).st_uid),
                 "directory_device": "%s" % oct(os.stat(directory).st_dev),
                 "created_at": "%s" % time.ctime(os.path.getctime(directory)),
                 "last_modified": "%s" % time.ctime(os.path.getmtime(directory)),
@@ -114,31 +121,5 @@ def get_full_path(path):
         return path
 
 
-if __name__ == '__main__':
-    print("Hello to Folder Middleware :) ")
 
-    # # we will look for the file recursively
-    # directory = "."
-    # file_to_find = 'hi.txt'
-    #
-    # # Start looking in the home directory (~)
-    # # If it is not found, ie it did not return True, tell the user it was "Not
-    # # Found"
-    # if not look_in_directory(directory, file_to_find):
-    #     print("Not Found")
 
-    # print("All by modified oldest to newest:",
-    #       get_directory_files_form_oldest_to_newest("."))
-    #
-    # print("The Latest File:- ", max(get_tree(".")))
-    #
-    # print("get_dir_info:- ")
-    # pprint(get_dir_info("."))
-    #
-    # print("Sys User Path:-  ", get_user_path())
-    # print("Current Path:- ", get_current_path())
-    # print("Folder Tree:- ", get_tree(get_current_path()))
-
-    # print("Missing files are:")
-    # print(compare_director("/var",
-    #                        "/tmp"))
