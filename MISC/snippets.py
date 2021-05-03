@@ -1,17 +1,18 @@
 ###########################################################################
 # Taking Space Separated Multiple Inputs
-
-# Taking Two Integers as input
-import timeit
-import time
 import datetime
-from operator import itemgetter
-import numpy as np
 import operator
-from itertools import repeat
-from os import path
 import os.path
 import sys
+import time
+import timeit
+from itertools import repeat
+from operator import itemgetter
+from os import path
+
+import numpy as np
+
+# Taking Two Integers as input
 
 a, b = map(int, input().split())
 print("a:", a)
@@ -29,7 +30,6 @@ arr = [2, 4, 6, 3, 8, 10]
 
 for index, value in enumerate(arr):
     print(f"At Index {index} The Value Is -> {value}")
-
 """Output
 At Index 0 The Value Is -> 2
 At Index 1 The Value Is -> 4
@@ -42,7 +42,6 @@ At Index 5 The Value Is -> 10
 
 ###########################################################################
 # Check Memory Usage
-
 
 a = 20
 print(sys.getsizeof(a))
@@ -107,7 +106,6 @@ def check_for_file():
 
 if __name__ == "__main__":
     check_for_file()
-
 """
 File exists:  False
 """
@@ -126,8 +124,6 @@ print(squares)
 n = 6
 squares = [i ** 2 for i in range(1, n + 1)]
 print(squares)
-
-
 """Output
   [1, 4, 9, 16, 25]
 """
@@ -192,7 +188,6 @@ list1 = [
     maths[3] + physics[3],
 ]
 
-
 # List Comprehension
 list1 = [x + y for x, y in zip(maths, physics)]
 
@@ -203,12 +198,10 @@ all_devices = list(map(operator.add, maths, physics))
 # Using Numpy Library
 
 list1 = np.add(maths, physics)
-
 """Output
 [137 162 131 142]
 """
 ###########################################################################
-
 
 ###########################################################################
 # Sorting a List of Dictionaries
@@ -227,10 +220,8 @@ dict1.sort(key=lambda item: item.get("Age"))
 f = itemgetter("Name")
 dict1.sort(key=f)
 
-
 # Iterable sorted function
 dict1 = sorted(dict1, key=lambda item: item.get("Age"))
-
 """Output
 [{'Age': 25, 'Name': 'Karl'},
  {'Age': 35, 'Name': 'Nina'},
@@ -277,7 +268,6 @@ street = "Elm street"
 for i in addresses:
     if street in i:
         print(i)
-
 """output
 12/45 Elm street
 17/45 Elm street
@@ -353,7 +343,6 @@ def most_frequent(nums):
 ###########################################################################
 # Calculator Without if-else
 
-
 action = {
     "+": operator.add,
     "-": operator.sub,
@@ -383,7 +372,6 @@ print((sub if a > b else add)(a, b))
 
 ###########################################################################
 # Calculator Without if-else
-
 
 action = {
     "+": operator.add,
