@@ -71,8 +71,7 @@ print(check_anagram("ginger", "danger"))  # False
 ###########################################################################
 # Merging Two Dictionaries
 
-basic_information = {"name": ["karl", "Lary"],
-                     "mobile": ["0134567894", "0123456789"]}
+basic_information = {"name": ["karl", "Lary"], "mobile": ["0134567894", "0123456789"]}
 academic_information = {"grade": ["A", "B"]}
 details = dict()  # Combines Dict
 
