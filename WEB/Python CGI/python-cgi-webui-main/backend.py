@@ -1,14 +1,12 @@
 #!/usr/bin/python3
-
-import subprocess as sp
 import cgi
+import subprocess as sp
 
 print("content-type: text/html")
 print()
 
 data = cgi.FieldStorage()
 a = data.getvalue("a")
-
 
 if a == "linux-1":
     x = data.getvalue("x")
