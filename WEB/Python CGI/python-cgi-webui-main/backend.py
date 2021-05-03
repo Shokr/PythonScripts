@@ -87,7 +87,8 @@ elif a == "aws-2":
     print(output)
 elif a == "aws-3":
     x = data.getvalue("x")
-    output = sp.getoutput("aws ec2 create-security-group --group-name {}".format(x))
+    output = sp.getoutput(
+        "aws ec2 create-security-group --group-name {}".format(x))
     print(output)
 elif a == "aws-4":
     x = data.getvalue("x")
@@ -97,37 +98,29 @@ elif a == "aws-4":
     c = data.getvalue("c")
     d = data.getvalue("d")
     output = sp.getoutput(
-        "aws ec2 run-instances --image-id {} --instance-type {} --count {} --subnet-id {} --key-name {} --security-group-ids {}".format(
-            x, y, z, b, c, d
-        )
-    )
+        "aws ec2 run-instances --image-id {} --instance-type {} --count {} --subnet-id {} --key-name {} --security-group-ids {}"
+        .format(x, y, z, b, c, d))
     print(output)
 elif a == "aws-5":
     x = data.getvalue("x")
     y = data.getvalue("y")
     output = sp.getoutput(
-        "aws ec2 create-volume --availability-zone {} --no-encrypted --size {}".format(
-            x, y
-        )
-    )
+        "aws ec2 create-volume --availability-zone {} --no-encrypted --size {}"
+        .format(x, y))
     print(output)
 elif a == "aws-6":
     x = data.getvalue("x")
     y = data.getvalue("y")
     output = sp.getoutput(
-        "aws ec2 attach-volume --instance-id {} --volume-id {} --device xvdh".format(
-            x, y
-        )
-    )
+        "aws ec2 attach-volume --instance-id {} --volume-id {} --device xvdh".
+        format(x, y))
     print(output)
 elif a == "aws-7":
     x = data.getvalue("x")
     y = data.getvalue("y")
     output = sp.getoutput(
-        "aws s3api create-bucket --bucket {} --region {} --create-bucket-configuration LocationConstraint={}".format(
-            x, y, y
-        )
-    )
+        "aws s3api create-bucket --bucket {} --region {} --create-bucket-configuration LocationConstraint={}"
+        .format(x, y, y))
     print(output)
 elif a == "docker-1":
     output = sp.getoutput("docker -version")
@@ -219,7 +212,8 @@ elif a == "hadoop-9":
 elif a == "hadoop-10":
     x = data.getvalue("x")
     y = data.getvalue("y")
-    output = sp.getoutput("hadoop fs -Ddfs.block.size={}  -put {} /".format(x, y))
+    output = sp.getoutput("hadoop fs -Ddfs.block.size={}  -put {} /".format(
+        x, y))
     print(output)
 elif a == "hadoop-11":
     x = data.getvalue("x")
