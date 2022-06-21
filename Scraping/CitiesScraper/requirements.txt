@@ -3,7 +3,7 @@ certifi==2019.3.9
 chardet==3.0.4
 idna==2.8
 lxml==4.6.3
-numpy==1.16.4
+numpy==1.22.0
 pandas==0.24.2
 python-dateutil==2.8.0
 pytz==2019.1
